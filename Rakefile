@@ -5,6 +5,7 @@ require 'csv'
 # ISO 3166-1			http://en.wikipedia.org/wiki/ISO_3166-1
 # ISO 3166-1 alpha-2	http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 # ISO 3166-1 alpha-3	http://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
+# ISO 3166-2 			http://en.wikipedia.org/wiki/ISO_3166-2
 
 data = {
 	# 3166-1 alpha-2, 3166-1 alpha-3, 3166-2, Country Name
@@ -73,7 +74,18 @@ data = {
 	269	=>	['CH', 'CHE', '', 		'Switzerland (Confederation of)'],
 	270	=>	['CZ', 'CZE', '', 		'Czech Republic'],
 	271	=>	['TR', 'TUR', '', 		'Turkey'],
-	272	=>	['UA', 'UKR', '', 		'Ukraine']
+	272	=>	['UA', 'UKR', '', 		'Ukraine'],
+	273	=>	['RU', 'RUS', '',		'Russian Federation'],
+ 	274	=>	['MK', 'MKD', '',		'The Former Yugoslav Republic of Macedonia'],
+ 	275	=>	['LV', 'LVA', '', 		'Latvia (Republic of)'],
+ 	276 =>	['EE', 'EST', '',		'Estonia (Republic of)'],
+ 	277	=>	['LT', 'LTU', '',		'Lithuania (Republic of)'],
+ 	278	=>	['SI', 'SVN', '',		'Slovenia (Republic of)'],
+ 	279 =>	['RS', 'SRB', '',		'Serbia (Republic of)'],
+ 	301	=>	['AI', 'AIA', '',		'Anguilla - United Kingdom of Great Britain and Northern Ireland'],
+ 	303	=>	['US', 'USA', 'US-AK',	'Alaska (State of) - United States of America'],
+ 	304 =>	['AG', 'ATG', '', 		'Antigua and Barbuda'],
+ 	305	=>	['AG', 'ATG', '', 		'Antigua and Barbuda']
 }
 
 
@@ -106,16 +118,6 @@ end
 
 # TODO: The following entries are to be added.
 
-# 273	Russian Federation
-# 274	The Former Yugoslav Republic of Macedonia
-# 275	Latvia (Republic of)
-# 276	Estonia (Republic of)
-# 277	Lithuania (Republic of)	
-# 278	Slovenia (Republic of)
-# 279	Serbia (Republic of)
-# 301	Anguilla - United Kingdom of Great Britain and Northern Ireland
-# 303	Alaska (State of) - United States of America
-# 304, 305	Antigua and Barbuda
 # 306	CuraÁao - Netherlands (Kingdom of the)
 # 306	Sint Maarten (Dutch part) - Netherlands (Kingdom of the)
 # 306	Bonaire, Sint Eustatius and Saba - Netherlands (Kingdom of the)
