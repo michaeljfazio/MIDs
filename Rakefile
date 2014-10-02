@@ -56,7 +56,24 @@ data = {
 	251 =>	['IS', 'ISL', '',		'Iceland'],
 	252 =>	['LI', 'LIE', '',		'Liechtenstein (Principality of)'],
 	253 =>	['LU', 'LUX', '',		'Luxembourg'],
-	254 =>	['MC', 'MCO', '',		'Monaco (Principality of)']
+	254 =>	['MC', 'MCO', '',		'Monaco (Principality of)'],
+	255 =>	['PT', 'PRT', 'PT-30',	'Madeira - Portugal'],
+	256 =>	['MT', 'MLT', '',		'Malta'],
+	257 =>	['NO', 'NOR', '',		'Norway'],
+	258 =>	['NO', 'NOR', '',		'Norway'],
+	259 =>	['NO', 'NOR', '',		'Norway'],
+	261 =>	['PL', 'POL', '',		'Poland (Republic of)'],
+	262 =>	['ME', 'MNE', '',		'Montenegro'],
+	263	=>	['PT', 'PRT', '', 		'Portugal'],
+	264	=>	['RO', 'ROU', '', 		'Romania'],
+	265	=>	['SE', 'SWE', '', 		'Sweden'],
+	266	=>	['SE', 'SWE', '', 		'Sweden'],
+	267	=>	['SK', 'SVK', '', 		'Slovak Republic'],
+	268	=>	['SM', 'SMR', '', 		'San Marino (Republic of)'],
+	269	=>	['CH', 'CHE', '', 		'Switzerland (Confederation of)'],
+	270	=>	['CZ', 'CZE', '', 		'Czech Republic'],
+	271	=>	['TR', 'TUR', '', 		'Turkey'],
+	272	=>	['UA', 'UKR', '', 		'Ukraine']
 }
 
 
@@ -89,20 +106,6 @@ end
 
 # TODO: The following entries are to be added.
 
-# 255	Madeira - Portugal
-# 256	Malta
-# 257, 258, 259	Norway
-# 261	Poland (Republic of)
-# 262	Montenegro
-# 263	Portugal
-# 264	Romania
-# 265, 266	Sweden
-# 267	Slovak Republic
-# 268	San Marino (Republic of)
-# 269	Switzerland (Confederation of)
-# 270	Czech Republic
-# 271	Turkey
-# 272	Ukraine
 # 273	Russian Federation
 # 274	The Former Yugoslav Republic of Macedonia
 # 275	Latvia (Republic of)
