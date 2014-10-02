@@ -6,6 +6,7 @@ require 'csv'
 # ISO 3166-1 alpha-2	http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 # ISO 3166-1 alpha-3	http://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
 # ISO 3166-2 			http://en.wikipedia.org/wiki/ISO_3166-2
+# http://www.millometro.com/ais/mmsi.pdf
 
 data = {
 	# 3166-1 alpha-2, 3166-1 alpha-3, 3166-2, Country Name
@@ -85,7 +86,13 @@ data = {
  	301	=>	['AI', 'AIA', '',		'Anguilla - United Kingdom of Great Britain and Northern Ireland'],
  	303	=>	['US', 'USA', 'US-AK',	'Alaska (State of) - United States of America'],
  	304 =>	['AG', 'ATG', '', 		'Antigua and Barbuda'],
- 	305	=>	['AG', 'ATG', '', 		'Antigua and Barbuda']
+ 	305	=>	['AG', 'ATG', '', 		'Antigua and Barbuda'],
+ 	306	=>	['CW', 'CUW', '', 		'Antilles - Netherlands (Kingdom of the)'],
+	307	=>	['AW', 'ABW', '',		'Aruba - Netherlands (Kingdom of the)'],
+	308	=>	['BS', 'BHS', '',		'Bahamas (Commonwealth of the)'],
+	309	=>	['BS', 'BHS', '',		'Bahamas (Commonwealth of the)'],
+	310	=>	['BM', 'BMU', '',		'Bermuda - United Kingdom of Great Britain and Northern Ireland'],
+	311	=>	['BS', 'BMU', '',		'Bahamas (Commonwealth of the)']
 }
 
 
@@ -118,13 +125,6 @@ end
 
 # TODO: The following entries are to be added.
 
-# 306	CuraÁao - Netherlands (Kingdom of the)
-# 306	Sint Maarten (Dutch part) - Netherlands (Kingdom of the)
-# 306	Bonaire, Sint Eustatius and Saba - Netherlands (Kingdom of the)
-# 307	Aruba - Netherlands (Kingdom of the)
-# 308, 309	Bahamas (Commonwealth of the)
-# 310	Bermuda - United Kingdom of Great Britain and Northern Ireland
-# 311	Bahamas (Commonwealth of the)
 # 312	Belize
 # 314	Barbados
 # 316	Canada
