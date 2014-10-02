@@ -8,22 +8,38 @@ require 'csv'
 
 data = {
 	# 3166-1 alpha-2, 3166-1 alpha-3, 3166-2, Country Name
-	201 => ['AL', 'ALB', '', 		'Albania (Republic of)'],
-	202	=> ['AD', 'AND', '', 		'Andorra (Principality of)'],
-	203	=> ['AT', 'AUT', '', 		'Austria'],
-	204	=> ['PT', 'PRT', 'PT-20', 	'Azores - Portugal'],
-	205	=> ['BE', 'BEL', '', 		'Belgium'],
-	206	=> ['BY', 'BLR', '', 		'Belarus (Republic of)'],
-	207	=> ['BG', 'BGR', '', 		'Bulgaria (Republic of)'],
-	208	=> ['VA', 'VAT', '',		'Vatican City State'],
-	209	=> ['CY', 'CYP', '', 		'Cyprus (Republic of)'],
-	210 => ['CY', 'CYP', '', 		'Cyprus (Republic of)'],
-	211	=> ['DE', 'DEU', '', 		'Germany (Federal Republic of)'],
-	212	=> ['CY', 'CYP', '',		'Cyprus (Republic of)'],
-	213	=> ['GE', 'GEO', '', 		'Georgia'],
-	214	=> ['MD', 'MDA', '',		'Moldova (Republic of)'],
-	215	=> ['MT', 'MLT', '',		'Malta'],
-	216	=> ['AM', 'ARM', '',		'Armenia (Republic of)']
+	201 =>	['AL', 'ALB', '', 		'Albania (Republic of)'],
+	202	=>	['AD', 'AND', '', 		'Andorra (Principality of)'],
+	203	=>	['AT', 'AUT', '', 		'Austria'],
+	204	=>	['PT', 'PRT', 'PT-20', 	'Azores - Portugal'],
+	205	=>	['BE', 'BEL', '', 		'Belgium'],
+	206	=>	['BY', 'BLR', '', 		'Belarus (Republic of)'],
+	207	=>	['BG', 'BGR', '', 		'Bulgaria (Republic of)'],
+	208	=>	['VA', 'VAT', '',		'Vatican City State'],
+	209	=>	['CY', 'CYP', '', 		'Cyprus (Republic of)'],
+	210 =>	['CY', 'CYP', '', 		'Cyprus (Republic of)'],
+	211	=>	['DE', 'DEU', '', 		'Germany (Federal Republic of)'],
+	212	=>	['CY', 'CYP', '',		'Cyprus (Republic of)'],
+	213	=>	['GE', 'GEO', '', 		'Georgia'],
+	214	=>	['MD', 'MDA', '',		'Moldova (Republic of)'],
+	215	=>	['MT', 'MLT', '',		'Malta'],
+	216	=>	['AM', 'ARM', '',		'Armenia (Republic of)'],
+	218	=>	['DE', 'DEU', '', 		'Germany (Federal Republic of)'],
+	219 =>	['DK', 'DNK', '',		'Denmark'],
+	220 =>	['DK', 'DNK', '',		'Denmark'],
+	224 =>	['ES', 'ESP', '',		'Spain'],
+	225 =>	['ES', 'ESP', '',		'Spain'],
+	226 =>	['FR', 'FRA', '',		'France'],
+	227 =>	['FR', 'FRA', '',		'France'],
+	228 =>	['FR', 'FRA', '',		'France'],
+	228 =>	['MT', 'MLT', '',		'Malta'],
+	230 =>	['FI', 'FIN', '',		'Finland'],
+	231 =>	['FO', 'FRO', '',		'Faroe Islands - Denmark'],
+	232 =>	['GB', 'GBR', '',		'United Kingdom of Great Britain and Northern Ireland'],
+	233 =>	['GB', 'GBR', '',		'United Kingdom of Great Britain and Northern Ireland'],
+	234 =>	['GB', 'GBR', '',		'United Kingdom of Great Britain and Northern Ireland'],
+	235 =>	['GB', 'GBR', '',		'United Kingdom of Great Britain and Northern Ireland'],
+	236 =>	['GI', 'GIB', '',		'Gibraltar - United Kingdom of Great Britain and Northern Ireland']
 }
 
 
@@ -56,15 +72,6 @@ end
 
 # TODO: The following entries are to be added.
 
-# 218	Germany (Federal Republic of)
-# 219, 220	Denmark
-# 224, 225	Spain
-# 226, 227, 228	France
-# 229	Malta
-# 230	Finland
-# 231	Faroe Islands - Denmark
-# 232, 233, 234, 235	United Kingdom of Great Britain and Northern Ireland
-# 236	Gibraltar - United Kingdom of Great Britain and Northern Ireland
 # 237	Greece
 # 238	Croatia (Republic of)
 # 239, 240, 241	Greece
