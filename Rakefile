@@ -39,7 +39,24 @@ data = {
 	233 =>	['GB', 'GBR', '',		'United Kingdom of Great Britain and Northern Ireland'],
 	234 =>	['GB', 'GBR', '',		'United Kingdom of Great Britain and Northern Ireland'],
 	235 =>	['GB', 'GBR', '',		'United Kingdom of Great Britain and Northern Ireland'],
-	236 =>	['GI', 'GIB', '',		'Gibraltar - United Kingdom of Great Britain and Northern Ireland']
+	236 =>	['GI', 'GIB', '',		'Gibraltar - United Kingdom of Great Britain and Northern Ireland'],
+	237 =>	['GR', 'GRC', '',		'Greece'],
+	238	=>	['HR', 'HRV', '',		'Croatia (Republic of)'],
+	239 =>	['GR', 'GRC', '',		'Greece'],
+	240 =>	['GR', 'GRC', '',		'Greece'],
+	241 =>	['GR', 'GRC', '',		'Greece'],
+	242	=>	['MA', 'MAR', '',		'Morocco (Kingdom of)'],
+	243 =>	['HU', 'HUN', '',		'Hungary'],
+	244 =>	['NL', 'NLD', '',		'Netherlands (Kingdom of the)'],
+	245 =>	['NL', 'NLD', '',		'Netherlands (Kingdom of the)'],
+	246 =>	['NL', 'NLD', '',		'Netherlands (Kingdom of the)'],
+	247 =>	['IT', 'ITA', '',		'Italy'],
+	248 =>	['MT', 'MLT', '',		'Malta'],
+	250 =>	['IE', 'IRL', '',		'Ireland'],
+	251 =>	['IS', 'ISL', '',		'Iceland'],
+	252 =>	['LI', 'LIE', '',		'Liechtenstein (Principality of)'],
+	253 =>	['LU', 'LUX', '',		'Luxembourg'],
+	254 =>	['MC', 'MCO', '',		'Monaco (Principality of)']
 }
 
 
@@ -72,19 +89,6 @@ end
 
 # TODO: The following entries are to be added.
 
-# 237	Greece
-# 238	Croatia (Republic of)
-# 239, 240, 241	Greece
-# 242	Morocco (Kingdom of)
-# 243	Hungary
-# 244, 245, 246	Netherlands (Kingdom of the)
-# 247	Italy
-# 248, 249	Malta
-# 250	Ireland
-# 251	Iceland
-# 252	Liechtenstein (Principality of)
-# 253	Luxembourg
-# 254	Monaco (Principality of)
 # 255	Madeira - Portugal
 # 256	Malta
 # 257, 258, 259	Norway
