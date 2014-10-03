@@ -101,7 +101,24 @@ data = {
 	323 =>	['CU', 'CUB', '',		'Cuba'],
 	325 =>	['DM', 'DMA', '',		'Dominica (Commonwealth of)'],
 	327 =>	['DO', 'DOM', '',		'Dominican Republic'],
-	329 =>	['GP', 'GLP', '',		'Guadeloupe (French Department of) - France']
+	329 =>	['GP', 'GLP', '',		'Guadeloupe (French Department of) - France'],
+	330 =>	['GD', 'GRD', '',		'Grenada'],
+	331	=>	['GL', 'GRL', '',		'Greenland - Denmark'],
+	332	=>	['GT', 'GTM', '',		'Guatemala (Republic of)'],
+	335 =>	['HN', 'HND', '',		'Honduras (Republic of)'],
+	336	=>	['HT', 'HTI', '',		'Haiti (Republic of)'],
+	338	=>	['US', 'USA', '',		'United States of America'],
+	339	=>	['JM', 'JAM', '',		'Jamaica'],
+	341	=>	['KN', 'KNA', '',		'Saint Kitts and Nevis (Federation of)'],
+	343	=>	['LC', 'LCA', '',		'Saint Lucia'],
+	345	=>	['MX', 'MEX', '',		'Mexico'],
+	347	=>	['MQ', 'MTQ', '',		'Martinique (French Department of) - France'],
+	348 =>	['MS', 'MSR', '',		'Montserrat - United Kingdom of Great Britain and Northern Ireland'],
+	350 =>	['NI', 'NIC', '',		'Nicaragua'],
+	351 =>	['PA', 'PAN', '',		'Panama (Republic of)'],
+	352 =>	['PA', 'PAN', '',		'Panama (Republic of)'],
+	353 =>	['PA', 'PAN', '',		'Panama (Republic of)'],
+	354 =>	['PA', 'PAN', '',		'Panama (Republic of)']
 }
 
 
@@ -134,20 +151,6 @@ end
 
 # TODO: The following entries are to be added.
 
-# 330	Grenada
-# 331	Greenland - Denmark
-# 332	Guatemala (Republic of)
-# 334	Honduras (Republic of)
-# 336	Haiti (Republic of)
-# 338	United States of America
-# 339	Jamaica
-# 341	Saint Kitts and Nevis (Federation of)
-# 343	Saint Lucia
-# 345	Mexico
-# 347	Martinique (French Department of) - France
-# 348	Montserrat - United Kingdom of Great Britain and Northern Ireland
-# 350	Nicaragua
-# 351, 352, 353, 354	Panama (Republic of)
 # 355,356, 357	-
 # 358	Puerto Rico - United States of America
 # 359	El Salvador (Republic of)
