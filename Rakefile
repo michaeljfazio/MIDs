@@ -92,7 +92,16 @@ data = {
 	308	=>	['BS', 'BHS', '',		'Bahamas (Commonwealth of the)'],
 	309	=>	['BS', 'BHS', '',		'Bahamas (Commonwealth of the)'],
 	310	=>	['BM', 'BMU', '',		'Bermuda - United Kingdom of Great Britain and Northern Ireland'],
-	311	=>	['BS', 'BMU', '',		'Bahamas (Commonwealth of the)']
+	311	=>	['BS', 'BMU', '',		'Bahamas (Commonwealth of the)'],
+	312	=>	['BZ', 'BLZ', '',		'Belize'],
+	314	=>	['BB', 'BRB', '',		'Barbados'],
+	316	=>	['CA', 'CAN', '',		'Canada'],
+	319	=>	['KY', 'CYM', '',		'Cayman Islands - United Kingdom of Great Britain and Northern Ireland'],
+	321 =>	['CR', 'CRI', '',		'Costa Rica'],
+	323 =>	['CU', 'CUB', '',		'Cuba'],
+	325 =>	['DM', 'DMA', '',		'Dominica (Commonwealth of)'],
+	327 =>	['DO', 'DOM', '',		'Dominican Republic'],
+	329 =>	['GP', 'GLP', '',		'Guadeloupe (French Department of) - France']
 }
 
 
@@ -125,15 +134,6 @@ end
 
 # TODO: The following entries are to be added.
 
-# 312	Belize
-# 314	Barbados
-# 316	Canada
-# 319	Cayman Islands - United Kingdom of Great Britain and Northern Ireland
-# 321	Costa Rica
-# 323	Cuba
-# 325	Dominica (Commonwealth of)
-# 327	Dominican Republic
-# 329	Guadeloupe (French Department of) - France
 # 330	Grenada
 # 331	Greenland - Denmark
 # 332	Guatemala (Republic of)
