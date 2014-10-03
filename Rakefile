@@ -118,7 +118,34 @@ data = {
 	351 =>	['PA', 'PAN', '',		'Panama (Republic of)'],
 	352 =>	['PA', 'PAN', '',		'Panama (Republic of)'],
 	353 =>	['PA', 'PAN', '',		'Panama (Republic of)'],
-	354 =>	['PA', 'PAN', '',		'Panama (Republic of)']
+	354 =>	['PA', 'PAN', '',		'Panama (Republic of)'],
+	# 355,356, 357	-
+	358 =>	['PR', 'PRI', '',		'Puerto Rico - United States of America'],
+	359 =>	['SV', 'SLV', '',		'El Salvador (Republic of)'],
+	361 =>	['PM', 'SPM', '',		'Saint Pierre and Miquelon (Territorial Collectivity of) - France'],
+	362	=>	['TT', 'TTO', '',		'Trinidad and Tobago'],
+	364	=>	['TC', 'TCA', '',		'Turks and Caicos Islands - United Kingdom of Great Britain and Northern Ireland'],
+	366 =>	['US', 'USA', '',		'United States of America'],
+	367 =>	['US', 'USA', '',		'United States of America'],
+	368 =>	['US', 'USA', '',		'United States of America'],
+	369 =>	['US', 'USA', '',		'United States of America'],
+	370 =>	['PA', 'PAN', '',		'Panama (Republic of)'],
+	371 =>	['PA', 'PAN', '',		'Panama (Republic of)'],
+	372 =>	['PA', 'PAN', '',		'Panama (Republic of)'],
+	373 =>	['PA', 'PAN', '',		'Panama (Republic of)'],
+	375 =>	['VC', 'VCT', '',		'Saint Vincent and the Grenadines'],
+	376 =>	['VC', 'VCT', '',		'Saint Vincent and the Grenadines'],
+	377 =>	['VC', 'VCT', '',		'Saint Vincent and the Grenadines'],
+	378	=>	['VG', 'VGB', '',		'British Virgin Islands - United Kingdom of Great Britain and Northern Ireland'],
+	379	=>	['VI', 'VIR', '',		'United States Virgin Islands - United States of America'],
+	401 =>	['AF', 'AFG', '',		'Afghanistan'],
+	403 =>	['SA', 'SAU', '',		'Saudi Arabia (Kingdom of)'],
+	405	=>	['BD', 'BGD', '',		'Bangladesh (People\'s Republic of)'],
+	408	=>	['BH', 'BHR', '',		'Bahrain (Kingdom of)'],
+	410 =>	['BT', 'BTN', '', 		'Bhutan (Kingdom of)'],
+	412 =>	['CN', 'CHN', '',		'China (People\'s Republic of)'],
+	413 =>	['CN', 'CHN', '',		'China (People\'s Republic of)'],
+	414 =>	['CN', 'CHN', '',		'China (People\'s Republic of)']
 }
 
 
@@ -151,23 +178,7 @@ end
 
 # TODO: The following entries are to be added.
 
-# 355,356, 357	-
-# 358	Puerto Rico - United States of America
-# 359	El Salvador (Republic of)
-# 361	Saint Pierre and Miquelon (Territorial Collectivity of) - France
-# 362	Trinidad and Tobago
-# 364	Turks and Caicos Islands - United Kingdom of Great Britain and Northern Ireland
-# 366, 367, 368, 369	United States of America
-# 370, 371, 372, 373	Panama (Republic of)
-# 375, 376, 377	Saint Vincent and the Grenadines
-# 378	British Virgin Islands - United Kingdom of Great Britain and Northern Ireland
-# 379	United States Virgin Islands - United States of America
-# 401	Afghanistan
-# 403	Saudi Arabia (Kingdom of)
-# 405	Bangladesh (People's Republic of)
-# 408	Bahrain (Kingdom of)
-# 410	Bhutan (Kingdom of)
-# 412, 413, 414	China (People's Republic of)
+
 # 416	Taiwan (Province of China) - China (People's Republic of)
 # 417	Sri Lanka (Democratic Socialist Republic of)
 # 419	India (Republic of)
