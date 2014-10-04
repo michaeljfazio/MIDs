@@ -145,7 +145,22 @@ data = {
 	410 =>	['BT', 'BTN', '', 		'Bhutan (Kingdom of)'],
 	412 =>	['CN', 'CHN', '',		'China (People\'s Republic of)'],
 	413 =>	['CN', 'CHN', '',		'China (People\'s Republic of)'],
-	414 =>	['CN', 'CHN', '',		'China (People\'s Republic of)']
+	414 =>	['CN', 'CHN', '',		'China (People\'s Republic of)'],
+	416	=>	['TW', 'TWN', '',		'Taiwan (Province of China) - China (People\'s Republic of)'],
+	417	=>	['LK', 'LKA', '',		'Sri Lanka (Democratic Socialist Republic of)'],
+	419	=>  ['IN', 'IND', '',		'India (Republic of)'],
+	422	=>	['IR', 'IRN', '',		'Iran (Islamic Republic of)'],
+	423	=>	['AZ', 'AZE', '',		'Azerbaijan (Republic of)'],
+	425	=>	['IQ', 'IRQ', '',		'Iraq (Republic of)'],
+	428	=>	['IL', 'ISR', '',		'Israel (State of)'],
+	431 =>	['JP', 'JPN', '',		'Japan'],
+	432 =>	['JP', 'JPN', '',		'Japan'],
+	434	=>	['TM', 'TKM', '',		'Turkmenistan'],
+	436	=>	['KZ', 'KAZ', '',		'Kazakhstan (Republic of)'],
+	437	=>	['UZ', 'UZB', '',		'Uzbekistan (Republic of)'],
+	438	=>	['JO', 'JOR', '',		'Jordan (Hashemite Kingdom of)'],
+	440	=>	['KR', 'KOR', '',		'Korea (Republic of)'],
+	441	=>	['KR', 'KOR', '',		'Korea (Republic of)']
 }
 
 
@@ -179,19 +194,6 @@ end
 # TODO: The following entries are to be added.
 
 
-# 416	Taiwan (Province of China) - China (People's Republic of)
-# 417	Sri Lanka (Democratic Socialist Republic of)
-# 419	India (Republic of)
-# 422	Iran (Islamic Republic of)
-# 423	Azerbaijan (Republic of)
-# 425	Iraq (Republic of)
-# 428	Israel (State of)
-# 431, 432	Japan
-# 434	Turkmenistan
-# 436	Kazakhstan (Republic of)
-# 437	Uzbekistan (Republic of)
-# 438	Jordan (Hashemite Kingdom of)
-# 440, 441	Korea (Republic of)
 # 443	State of Palestine (In accordance with Resolution 99 Rev. Guadalajara, 2010)
 # 445	Democratic People's Republic of Korea
 # 447	Kuwait (State of)
