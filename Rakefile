@@ -197,7 +197,23 @@ data = {
 	529 =>	['KI', 'KIR', '',		'Kiribati (Republic of)'],
 	531 =>	['LA', 'LAO', '',		'Lao People\'s Democratic Republic'],
 	533 =>	['MY', 'MYS', '',		'Malaysia'],
-	536 =>	['MP', 'MNP', '',		'Northern Mariana Islands (Commonwealth of the) - United States of America']
+	536 =>	['MP', 'MNP', '',		'Northern Mariana Islands (Commonwealth of the) - United States of America'],
+	538 =>	['MH', 'MHL', '',		'Marshall Islands (Republic of the)'],
+	540 =>	['NC', 'NCL', '',		'New Caledonia - France'],
+	542 =>	['NU', 'NIU', '',		'Niue - New Zealand'],
+	544 =>	['NR', 'NRU', '',		'Nauru (Republic of)'],
+	546 =>	['PF', 'PYF', '',		'French Polynesia - France'],
+	548 =>	['PH', 'PHL', '',		'Philippines (Republic of the)'],
+	553 =>	['PG', 'PNG', '',		'Papua New Guinea'],
+	555 =>	['PN', 'PCN', '',		'Pitcairn Island - United Kingdom of Great Britain and Northern Ireland'],
+	557 =>	['SB', 'SLB', '',		'Solomon Islands'],
+	559 =>	['AS', 'ASM', '',		'American Samoa - United States of America'],
+	561 =>	['WS', 'WSM', '',		'Samoa (Independent State of)'],
+	563 =>	['SG', 'SGP', '',		'Singapore (Republic of)'],
+	564 =>	['SG', 'SGP', '',		'Singapore (Republic of)'],
+	565 =>	['SG', 'SGP', '',		'Singapore (Republic of)'],
+	566 =>	['SG', 'SGP', '',		'Singapore (Republic of)']
+	
 }
 
 
@@ -230,19 +246,6 @@ end
 
 # TODO: The following entries are to be added.
 
-
-# 538	Marshall Islands (Republic of the)
-# 540	New Caledonia - France
-# 542	Niue - New Zealand
-# 544	Nauru (Republic of)
-# 546	French Polynesia - France
-# 548	Philippines (Republic of the)
-# 553	Papua New Guinea
-# 555	Pitcairn Island - United Kingdom of Great Britain and Northern Ireland
-# 557	Solomon Islands
-# 559	American Samoa - United States of America
-# 561	Samoa (Independent State of)
-# 563, 564, 565, 566	Singapore (Republic of)
 # 567	Thailand
 # 570	Tonga (Kingdom of)
 # 572	Tuvalu
