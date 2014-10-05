@@ -160,7 +160,24 @@ data = {
 	437	=>	['UZ', 'UZB', '',		'Uzbekistan (Republic of)'],
 	438	=>	['JO', 'JOR', '',		'Jordan (Hashemite Kingdom of)'],
 	440	=>	['KR', 'KOR', '',		'Korea (Republic of)'],
-	441	=>	['KR', 'KOR', '',		'Korea (Republic of)']
+	441	=>	['KR', 'KOR', '',		'Korea (Republic of)'],
+	443	=>	['PS', 'PSE', '',		'State of Palestine (In accordance with Resolution 99 Rev. Guadalajara, 2010)'],
+	445	=>	['KP', 'PRK', '',		'Democratic People\'s Republic of Korea'],
+	447	=>	['KW', 'KWT', '',		'Kuwait (State of)'],
+	450	=>	['LB', 'LBN', '',		'Lebanon'],
+	451 =>	['KG', 'KGZ', '',		'Kyrgyz Republic'],
+	453 =>	['MO', 'MAC', '',		'Macao (Special Administrative Region of China) - China (People\'s Republic of)'],
+	455 =>	['MV', 'MDV', '',		'Maldives (Republic of)'],
+	457 =>	['MN', 'MNG', '',		'Mongolia'],
+	459 =>	['NP', 'NPL', '',		'Nepal (Federal Democratic Republic of)'],
+	461 =>	['OM', 'OMN', '',		'Oman (Sultanate of)'],
+	463 =>	['PK', 'PAK', '',		'Pakistan (Islamic Republic of)'],
+	466 =>	['QA', 'QAT', '',		'Qatar (State of)'],
+	468 =>	['SY', 'SYR', '',		'Syrian Arab Republic'],
+	470 =>	['AE', 'ARE', '',		'United Arab Emirates'],
+	472 =>	['TJ', 'TJK', '',		'Tajikistan (Republic of)'],
+	473 =>	['YE', 'YEM', '',		'Yemen (Republic of)'],
+	475 =>	['YE', 'YEM', '',		'Yemen (Republic of)']
 }
 
 
@@ -194,22 +211,6 @@ end
 # TODO: The following entries are to be added.
 
 
-# 443	State of Palestine (In accordance with Resolution 99 Rev. Guadalajara, 2010)
-# 445	Democratic People's Republic of Korea
-# 447	Kuwait (State of)
-# 450	Lebanon
-# 451	Kyrgyz Republic
-# 453	Macao (Special Administrative Region of China) - China (People's Republic of)
-# 455	Maldives (Republic of)
-# 457	Mongolia
-# 459	Nepal (Federal Democratic Republic of)
-# 461	Oman (Sultanate of)
-# 463	Pakistan (Islamic Republic of)
-# 466	Qatar (State of)
-# 468	Syrian Arab Republic
-# 470	United Arab Emirates
-# 472	Tajikistan (Republic of)
-# 473, 475	Yemen (Republic of)
 # 477	Hong Kong (Special Administrative Region of China) - China (People's Republic of)
 # 478	Bosnia and Herzegovina
 # 501	Adelie Land - France
