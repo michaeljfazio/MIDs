@@ -177,7 +177,27 @@ data = {
 	470 =>	['AE', 'ARE', '',		'United Arab Emirates'],
 	472 =>	['TJ', 'TJK', '',		'Tajikistan (Republic of)'],
 	473 =>	['YE', 'YEM', '',		'Yemen (Republic of)'],
-	475 =>	['YE', 'YEM', '',		'Yemen (Republic of)']
+	475 =>	['YE', 'YEM', '',		'Yemen (Republic of)'],
+	477 =>	['HK', 'HKG', '',		'Hong Kong (Special Administrative Region of China) - China (People\'s Republic of)'],
+	478	=>	['BA', 'BIH', '', 		'Bosnia and Herzegovina'],
+	501	=>	['FR', 'FRA', 'TF', 	'Adelie Land - France'],
+	503	=>	['AU', 'AUS', '',		'Australia'],
+	506 =>	['MM', 'MMR', '',		'Myanmar (Union of)'],
+	508 =>	['BN', 'BRN', '',		'Brunei Darussalam'],
+	510 =>	['FM', 'FSM', '', 		'Micronesia (Federated States of)'],
+	511 =>	['PW', 'PLW', '',		'Palau (Republic of)'],
+	512 =>	['NZ', 'NZL', '',		'New Zealand'],
+	514 =>	['KH', 'KHM', '',		'Cambodia (Kingdom of)'],
+	515 =>	['KH', 'KHM', '',		'Cambodia (Kingdom of)'],
+	516 =>	['CX', 'CXR', '',		'Christmas Island (Indian Ocean) - Australia'],
+	518 =>	['CK', 'COK', '',		'Cook Islands - New Zealand'],
+	520 =>	['FJ', 'FJI', '',		'Fiji (Republic of)'],
+	523 =>	['CC', 'CCK', '',		'Cocos (Keeling) Islands - Australia'],
+	525 =>	['ID', 'IDN', '',		'Indonesia (Republic of)'],
+	529 =>	['KI', 'KIR', '',		'Kiribati (Republic of)'],
+	531 =>	['LA', 'LAO', '',		'Lao People\'s Democratic Republic'],
+	533 =>	['MY', 'MYS', '',		'Malaysia'],
+	536 =>	['MP', 'MNP', '',		'Northern Mariana Islands (Commonwealth of the) - United States of America']
 }
 
 
@@ -211,25 +231,6 @@ end
 # TODO: The following entries are to be added.
 
 
-# 477	Hong Kong (Special Administrative Region of China) - China (People's Republic of)
-# 478	Bosnia and Herzegovina
-# 501	Adelie Land - France
-# 503	Australia
-# 506	Myanmar (Union of)
-# 508	Brunei Darussalam
-# 510	Micronesia (Federated States of)
-# 511	Palau (Republic of)
-# 512	New Zealand
-# 514, 515	Cambodia (Kingdom of)
-# 516	Christmas Island (Indian Ocean) - Australia
-# 518	Cook Islands - New Zealand
-# 520	Fiji (Republic of)
-# 523	Cocos (Keeling) Islands - Australia
-# 525	Indonesia (Republic of)
-# 529	Kiribati (Republic of)
-# 531	Lao People's Democratic Republic
-# 533	Malaysia
-# 536	Northern Mariana Islands (Commonwealth of the) - United States of America
 # 538	Marshall Islands (Republic of the)
 # 540	New Caledonia - France
 # 542	Niue - New Zealand
