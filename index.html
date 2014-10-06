@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>MIDs by S73417H</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>MIDs</h1>
+        <p>Maritime Identification Digits Mapping to Country Codes</p>
+        <p class="view"><a href="https://github.com/S73417H/MIDs">View the Project on GitHub <small>S73417H/MIDs</small></a></p>
+        <ul>
+          <li><a href="https://github.com/S73417H/MIDs/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/S73417H/MIDs/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/S73417H/MIDs">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="introduction" class="anchor" href="#introduction"><span class="octicon octicon-link"></span></a>Introduction</h1>
+
+<p>This project is intended to help map Maritime Identification Digits (MID) to ISO 3166 Country Codes.</p>
+
+<h1>
+<a name="what-are-maritime-identification-digits" class="anchor" href="#what-are-maritime-identification-digits"><span class="octicon octicon-link"></span></a>What are Maritime Identification Digits?</h1>
+
+<p>Maritime identification digits are used by radio communication facilities to identify their home country or base area in Digital Selective Calling (DSC), Automatic Transmitter Identification System (ATIS), and Automatic Identification System (AIS) messages as part of their Maritime Mobile Service Identities (MMSI).</p>
+
+<p>An MID consists of three digits, always starting with a number from 2 to 7 (assigned regionally) which identifies which country the ship is from. Multiple MIDs can be assigned to a country if it is required. A full listing of MIDs assigned to each country is written in Table 1 of ITU Radio Regulations Appendix 43.</p>
+
+<p>For more information visit <a href="http://en.wikipedia.org/wiki/Maritime_identification_digits">Wikipedia: Maritime Indentification Digits</a></p>
+
+<h1>
+<a name="maritime-mobile-service-identity-background" class="anchor" href="#maritime-mobile-service-identity-background"><span class="octicon octicon-link"></span></a>Maritime Mobile Service Identity background</h1>
+
+<p>A Maritime Mobile Service Identity (MMSI) is a series of nine digits which are sent in digital form over a radio frequency channel for unique identification. These identities are formed in such a way that the identity or part thereof can be used by telephone and telex subscribers connected to the general telecommunications network to call ships.</p>
+
+<p>For more information visit <a href="http://en.wikipedia.org/wiki/Maritime_Mobile_Service_Identity">Wikipedia: Maritime Mobile Service Identity</a></p>
+
+<h1>
+<a name="generating-mids-mappings" class="anchor" href="#generating-mids-mappings"><span class="octicon octicon-link"></span></a>Generating MIDs Mappings</h1>
+
+<p>This project uses Ruby to specify the mapping between MID codes and countries. The Rakefile in the root directory contains this information. The following Rake targets can be invoked to generate MIDs mapping files in one of several formats:</p>
+
+<ul>
+<li>
+<strong>generate_yaml</strong> YAML output format</li>
+<li>
+<strong>generate_csv</strong> CSV output format</li>
+<li>
+<strong>generate_json</strong> JSON output format</li>
+<li>
+<strong>default</strong> Generates all output formats</li>
+</ul><p>Unless contributing to the project, these targets should not need to be invoked as we generate and commit each of the supported mapping formats.</p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/S73417H">S73417H</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
