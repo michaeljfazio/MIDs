@@ -226,7 +226,35 @@ data = {
 	607	=>	['FR', 'FRA', 'TF', 	'Saint Paul and Amsterdam Islands - France'],
 	608	=>	['GB', 'GBR', 'AC',		'Ascension Island - United Kingdom of Great Britain and Northern Ireland'],
 	609 =>	['BI', 'BDI', '',		'Burundi (Republic of)'],
-	610 =>	['BJ', 'BEN', '',		'Benin (Republic of)']
+	610 =>	['BJ', 'BEN', '',		'Benin (Republic of)'],
+	611	=>	['BW', 'BWA', '',		'Botswana (Republic of)'],
+	621	=>	['CF', 'CAF', '',		'Central African Republic'],
+	613	=>	['CM', 'CMR', '',		'Cameroon (Republic of)'],
+	615	=>	['CG', 'COG', '',		'Congo (Republic of the)'],
+	616	=>	['KM', 'COM', '',		'Comoros (Union of the)'],
+	617	=>	['CV', 'CPV', '',		'Cabo Verde (Republic of)'],
+	618	=>	['FR', 'FRA', 'TF',		'Crozet Archipelago - France'],
+	619	=>	['CI', 'CIV', '',		'Ivory Coast (Republic of)'],
+	620	=>	['KM', 'COM', '',		'Comoros (Union of the)'],
+	621	=>	['DJ', 'DJI', '',		'Djibouti (Republic of)'],
+	622	=>  ['EG', 'EGY', '',		'Egypt (Arab Republic of)'],
+	624	=>	['ET', 'ETH', '',		'Ethiopia (Federal Democratic Republic of)'],
+	625	=>	['ER', 'ERI', '',		'Eritrea'],
+	626	=>	['GA', 'GAB', '',		'Gabonese Republic'],
+	627	=>	['GH', 'GHA', '',		'Ghana'],
+	629	=>	['GM', 'GMB', '',		'Gambia (Republic of the)'],
+	630	=>	['GW', 'GNB', '',		'Guinea-Bissau (Republic of)'],
+	631	=>	['GQ', 'GNQ', '',		'Equatorial Guinea (Republic of)'],
+	632	=>	['GN', 'GIN', '',		'Guinea (Republic of)'],
+	633	=>	['BF', 'BFA', '',		'Burkina Faso'],
+	634	=>	['KE', 'KEN', '',		'Kenya (Republic of)'],
+	635	=>	['FR', 'FRA', 'TF',		'Kerguelen Islands - France'],
+	636 =>	['LR', 'LBR', '',		'Liberia (Republic of)'],
+	637 =>	['LR', 'LBR', '',		'Liberia (Republic of)'],
+	638	=>	['SS', 'SSD', '',		'South Sudan (Republic of)'],
+	642	=>	['LY', 'LBY', '',		'Libya'],
+	644 =>	['LS', 'LSO', '',		'Lesotho (Kingdom of)'],
+	645	=>	['MU', 'MUS', '',		'Mauritius (Republic of)']
 }
 
 
@@ -259,33 +287,6 @@ end
 
 # TODO: The following entries are to be added.
 
-# 611	Botswana (Republic of)
-# 612	Central African Republic
-# 613	Cameroon (Republic of)
-# 615	Congo (Republic of the)
-# 616	Comoros (Union of the)
-# 617	Cabo Verde (Republic of)
-# 618	Crozet Archipelago - France
-# 619	CÙte d'Ivoire (Republic of)
-# 620	Comoros (Union of the)
-# 621	Djibouti (Republic of)
-# 622	Egypt (Arab Republic of)
-# 624	Ethiopia (Federal Democratic Republic of)
-# 625	Eritrea
-# 626	Gabonese Republic
-# 627	Ghana
-# 629	Gambia (Republic of the)
-# 630	Guinea-Bissau (Republic of)
-# 631	Equatorial Guinea (Republic of)
-# 632	Guinea (Republic of)
-# 633	Burkina Faso
-# 634	Kenya (Republic of)
-# 635	Kerguelen Islands - France
-# 636, 637	Liberia (Republic of)
-# 638	South Sudan (Republic of)
-# 642	Libya
-# 644	Lesotho (Kingdom of)
-# 645	Mauritius (Republic of)
 # 647	Madagascar (Republic of)
 # 649	Mali (Republic of)
 # 650	Mozambique (Republic of)
