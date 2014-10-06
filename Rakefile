@@ -180,7 +180,7 @@ data = {
 	475 =>	['YE', 'YEM', '',		'Yemen (Republic of)'],
 	477 =>	['HK', 'HKG', '',		'Hong Kong (Special Administrative Region of China) - China (People\'s Republic of)'],
 	478	=>	['BA', 'BIH', '', 		'Bosnia and Herzegovina'],
-	501	=>	['FR', 'FRA', 'TF', 	'Adelie Land - France'],
+	501	=>	['FR', 'FRA', 'AQ', 	'Adelie Land - France'],
 	503	=>	['AU', 'AUS', '',		'Australia'],
 	506 =>	['MM', 'MMR', '',		'Myanmar (Union of)'],
 	508 =>	['BN', 'BRN', '',		'Brunei Darussalam'],
@@ -212,8 +212,21 @@ data = {
 	563 =>	['SG', 'SGP', '',		'Singapore (Republic of)'],
 	564 =>	['SG', 'SGP', '',		'Singapore (Republic of)'],
 	565 =>	['SG', 'SGP', '',		'Singapore (Republic of)'],
-	566 =>	['SG', 'SGP', '',		'Singapore (Republic of)']
-	
+	566 =>	['SG', 'SGP', '',		'Singapore (Republic of)'],
+	567 =>	['TH', 'THA', '',		'Thailand'],
+	570	=>	['TO', 'TON', '',		'Tonga (Kingdom of)'],
+	572 =>	['TV', 'TUV', '',		'Tuvalu'],
+	574 =>	['VN', 'VNM', '', 		'Viet Nam (Socialist Republic of)'],
+	576 =>	['VU', 'VUT', '',		'Vanuatu (Republic of)'],
+	577 =>	['VU', 'VUT', '',		'Vanuatu (Republic of)'],
+	578	=>	['WF', 'WLF', '',		'Wallis and Futuna Islands - France'],
+	601	=>	['ZA', 'ZAF', '',		'South Africa (Republic of)'],
+	603	=>	['AO', 'AGO', '',		'Angola (Republic of)'],
+	605 =>	['DZ', 'DZA', '',		'Algeria (People\'s Democratic Republic of)'],
+	607	=>	['FR', 'FRA', 'TF', 	'Saint Paul and Amsterdam Islands - France'],
+	608	=>	['GB', 'GBR', 'AC',		'Ascension Island - United Kingdom of Great Britain and Northern Ireland'],
+	609 =>	['BI', 'BDI', '',		'Burundi (Republic of)'],
+	610 =>	['BJ', 'BEN', '',		'Benin (Republic of)']
 }
 
 
@@ -246,19 +259,6 @@ end
 
 # TODO: The following entries are to be added.
 
-# 567	Thailand
-# 570	Tonga (Kingdom of)
-# 572	Tuvalu
-# 574	Viet Nam (Socialist Republic of)
-# 576, 577	Vanuatu (Republic of)
-# 578	Wallis and Futuna Islands - France
-# 601	South Africa (Republic of)
-# 603	Angola (Republic of)
-# 605	Algeria (People's Democratic Republic of)
-# 607	Saint Paul and Amsterdam Islands - France
-# 608	Ascension Island - United Kingdom of Great Britain and Northern Ireland
-# 609	Burundi (Republic of)
-# 610	Benin (Republic of)
 # 611	Botswana (Republic of)
 # 612	Central African Republic
 # 613	Cameroon (Republic of)
