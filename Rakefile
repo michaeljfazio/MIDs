@@ -281,6 +281,18 @@ task :generate_yaml do
 	end
 end
 
+# Task for generating markdown for README.md file.
+task :generate_markdown do
+	puts 'Generating markdown...'
+	File.open('mids.md', 'w') do |out|
+		out.puts '|    Country     |      Alpha-2    |     Alpha-3     |       MID       |       Flag      |'
+		out.puts '| :------------- | :-------------: | :-------------: | :-------------: | :-------------: |'
+		data.each do |key,value|
+			out.puts "|  #{value[3]} |   #{value[0]} |   #{value[1]} |     #{key}    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/#{value[0].downcase}.png) |"
+		end
+	end
+end
+
 task :default => [:generate_csv, :generate_json, :generate_yaml] do
 	puts 'Generating everything...'
 end
