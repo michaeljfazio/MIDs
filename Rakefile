@@ -268,7 +268,7 @@ data = {
 	730 => ['CO', 'COL', '', 'Colombia (Republic of)'], 
 	735 => ['EC', 'ECU', '', 'Ecuador'], 
 	740 => ['FK', 'FLK', '', 'Falkland Islands (Malvinas) - United Kingdom of Great Britain and Northern Ireland'], 
-	745 => ['GF', 'GUF', '', 'Guiana - France'], 
+	745 => ['GF', 'GUF', 'GF', 'Guiana - France'], 
 	750 => ['GY', 'GUY', '', 'Guyana'], 
 	755 => ['PY', 'PRY', '', 'Paraguay (Republic of)'], 
 	760 => ['PE', 'PER', '', 'Peru'], 
@@ -340,23 +340,3 @@ end
 # 670	Chad (Republic of)
 # 671	Togolese Republic
 # 672	Tunisia
-# 674	Tanzania (United Republic of)
-# 675	Uganda (Republic of)
-# 676	Democratic Republic of the Congo
-# 677	Tanzania (United Republic of)
-# 678	Zambia (Republic of)
-# 679	Zimbabwe (Republic of)
-# 701	Argentine Republic
-# 710	Brazil (Federative Republic of)
-# 720	Bolivia (Plurinational State of)
-# 725	Chile
-# 730	Colombia (Republic of)
-# 735	Ecuador
-# 740	Falkland Islands (Malvinas) - United Kingdom of Great Britain and Northern Ireland
-# 745	Guiana (French Department of) - France
-# 750	Guyana
-# 755	Paraguay (Republic of)
-# 760	Peru
-# 765	Suriname (Republic of)
-# 770	Uruguay (Eastern Republic of)
-# 775	Venezuela (Bolivarian Republic of)
