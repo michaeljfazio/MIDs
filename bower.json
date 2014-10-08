@@ -1,6 +1,6 @@
 {
   "name": "MIDs",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": [
     "mids.json", 
     "mids.yaml", 
@@ -8,7 +8,9 @@
   ],
   "homepage": "https://github.com/S73417H/MIDs",
   "authors": [
-    "Michael Fazio <michaelfazio@me.com>"
+    "Michael Fazio <michaelfazio@me.com>",
+    "Adam Britto <adam.britto@gmail.com>",
+    "Daniel Lee <danielleeau@yahoo.com.au>"
   ],
   "description": "Maritime Identification Digits Mapping to Country Codes",
   "keywords": [
@@ -20,6 +22,8 @@
   ],
   "license": "Apache 2.0",
   "ignore": [
-    "**/.*"
+    "**/.*",
+    "README.md",
+    "Rakefile"
   ]
 }
