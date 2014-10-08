@@ -2,6 +2,14 @@ Introduction
 =================
 This project is intended to help map Maritime Identification Digits (MID) to ISO 3166 Country Codes.
 
+Using MIDs with Bower
+=====================
+If your project is using [bower](http://bower.io), then you can add MIDs as a dependency by invoking the following command:
+
+```shell
+bower install mids --save
+```
+
 What are Maritime Identification Digits?
 ========================================
 Maritime identification digits are used by radio communication facilities to identify their home country or base area in Digital Selective Calling (DSC), Automatic Transmitter Identification System (ATIS), and Automatic Identification System (AIS) messages as part of their Maritime Mobile Service Identities (MMSI).
