@@ -254,7 +254,28 @@ data = {
 	638	=>	['SS', 'SSD', '',		'South Sudan (Republic of)'],
 	642	=>	['LY', 'LBY', '',		'Libya'],
 	644 =>	['LS', 'LSO', '',		'Lesotho (Kingdom of)'],
-	645	=>	['MU', 'MUS', '',		'Mauritius (Republic of)']
+	645	=>	['MU', 'MUS', '',		'Mauritius (Republic of)'],
+	647 =>	['MG', 'MDG', '',		'Madagascar (Republic of)'],
+	649 =>	['ML', 'MLI', '',		'Mali (Republic of)'],
+	650 =>	['MZ', 'MOZ', '',		'Mozambique (Republic of)'],
+	654 =>	['MR', 'MRT', '',		'Mauritania (Islamic Republic of)'],
+	655 =>	['MW', 'MWI', '',		'Malawi (Republic of)'],
+	656 =>	['NE', 'NER', '',		'Niger (Republic of the)'],
+	656 =>	['NG', 'NGA', '',		'Nigeria (Federal Republic of)'],
+	659 =>	['NA', 'NAM', '',		'Namibia (Republic of)'],
+	660 =>	['RE', 'REU', '',		'Réunion (French Department of)'],
+	661 =>	['RW', 'RWA', '',		'Rwanda (Republic of)'],
+	662 =>	['SD', 'SDN', '',		'Sudan (Republic of the)'],
+	663 =>	['SN', 'SEN', '',		'Senegal (Republic of)'],
+	664 =>	['SC', 'SYC', '',		'Seychelles (Republic of)'],
+	665 =>	['SH', 'SHN', '',		'Saint Helena, Ascension and Tristan da Cunha'],
+	666 =>	['SO', 'SOM', '',		'Somali Democratic Republic'],
+	667 =>	['SL', 'SLE', '',		'Sierra Leone (Republic of)'],
+	668 =>	['ST', 'STP', '',		'São Tomé and Príncipe (Democratic Republic of)'],
+	669 =>	['SZ', 'SWZ', '',		'Swaziland (Kingdom of)'],
+	670 =>	['TD', 'TCD', '',		'Chad (Republic of)'],
+	671 =>	['TG', 'TGO', '',		'Togolese Republic'],
+	672 =>	['TN', 'TUN', '',		'Tunisian Republic']
 }
 
 
