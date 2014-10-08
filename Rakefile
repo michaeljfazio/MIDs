@@ -254,7 +254,7 @@ data = {
 	638	=>	['SS', 'SSD', '',		'South Sudan (Republic of)'],
 	642	=>	['LY', 'LBY', '',		'Libya'],
 	644 =>	['LS', 'LSO', '',		'Lesotho (Kingdom of)'],
-	645	=>	['MU', 'MUS', '',		'Mauritius (Republic of)'],
+	645 =>	['MU', 'MUS', '',		'Mauritius (Republic of)'],
 	647 =>	['MG', 'MDG', '',		'Madagascar (Republic of)'],
 	649 =>	['ML', 'MLI', '',		'Mali (Republic of)'],
 	650 =>	['MZ', 'MOZ', '',		'Mozambique (Republic of)'],
@@ -263,7 +263,7 @@ data = {
 	656 =>	['NE', 'NER', '',		'Niger (Republic of the)'],
 	656 =>	['NG', 'NGA', '',		'Nigeria (Federal Republic of)'],
 	659 =>	['NA', 'NAM', '',		'Namibia (Republic of)'],
-	660 =>	['RE', 'REU', '',		'Réunion (French Department of)'],
+	660 =>	['RE', 'REU', '',		'Reunion (French Department of)'],
 	661 =>	['RW', 'RWA', '',		'Rwanda (Republic of)'],
 	662 =>	['SD', 'SDN', '',		'Sudan (Republic of the)'],
 	663 =>	['SN', 'SEN', '',		'Senegal (Republic of)'],
@@ -271,11 +271,31 @@ data = {
 	665 =>	['SH', 'SHN', '',		'Saint Helena, Ascension and Tristan da Cunha'],
 	666 =>	['SO', 'SOM', '',		'Somali Democratic Republic'],
 	667 =>	['SL', 'SLE', '',		'Sierra Leone (Republic of)'],
-	668 =>	['ST', 'STP', '',		'São Tomé and Príncipe (Democratic Republic of)'],
+	668 =>	['ST', 'STP', '',		'Sao Tome and Principe (Democratic Republic of)'],
 	669 =>	['SZ', 'SWZ', '',		'Swaziland (Kingdom of)'],
 	670 =>	['TD', 'TCD', '',		'Chad (Republic of)'],
 	671 =>	['TG', 'TGO', '',		'Togolese Republic'],
-	672 =>	['TN', 'TUN', '',		'Tunisian Republic']
+	672 =>	['TN', 'TUN', '',		'Tunisian Republic'],
+	674 =>	['TZ', 'TZA', '', 		'Tanzania (United Republic of)'], 
+	675 =>	['UG', 'UGA', '',		'Uganda (Republic of)'], 
+	676 =>	['CD', 'COD', '',		'Democratic Republic of the Congo'], 
+	677 =>	['TZ', 'TZA', '',		'Tanzania (United Republic of)'], 
+	678 =>	['ZM', 'ZMB', '',		'Zambia (Republic of)'], 
+	679 =>	['ZW', 'ZWE', '',		'Zimbabwe (Republic of)'], 
+	701 =>	['AR', 'ARG', '',		'Argentine Republic'], 
+	710 =>	['BR', 'BRA', '',		'Brazil (Federative Republic of)'], 
+	720 =>	['BO', 'BOL', '',		'Bolivia (Plurinational State of)'], 
+	725 =>	['CL', 'CHL', '',		'Chile'], 
+	730 =>	['CO', 'COL', '',		'Colombia (Republic of)'], 
+	735 =>	['EC', 'ECU', '',		'Ecuador'], 
+	740 =>	['FK', 'FLK', '',		'Falkland Islands (Malvinas) - United Kingdom of Great Britain and Northern Ireland'], 
+	745 =>	['GF', 'GUF', '',		'Guiana - France'], 
+	750 =>	['GY', 'GUY', '',		'Guyana'], 
+	755 =>	['PY', 'PRY', '',		'Paraguay (Republic of)'], 
+	760 =>	['PE', 'PER', '',		'Peru'], 
+	765 =>	['SR', 'SUR', '',		'Suriname (Republic of)'], 
+	770 =>	['UY', 'URY', '',		'Uruguay (Eastern Republic of)'], 
+	775 =>	['VE', 'VEN', '',		'Venezuela (Bolivarian Republic of)']
 }
 
 
@@ -317,47 +337,3 @@ end
 task :default => [:generate_csv, :generate_json, :generate_yaml] do
 	puts 'Generating everything...'
 end
-
-# TODO: The following entries are to be added.
-
-# 647	Madagascar (Republic of)
-# 649	Mali (Republic of)
-# 650	Mozambique (Republic of)
-# 654	Mauritania (Islamic Republic of)
-# 655	Malawi
-# 656	Niger (Republic of the)
-# 657	Nigeria (Federal Republic of)
-# 659	Namibia (Republic of)
-# 660	Reunion (French Department of) - France
-# 661	Rwanda (Republic of)
-# 662	Sudan (Republic of the)
-# 663	Senegal (Republic of)
-# 664	Seychelles (Republic of)
-# 665	Saint Helena - United Kingdom of Great Britain and Northern Ireland
-# 666	Somalia (Federal Republic of)
-# 667	Sierra Leone
-# 668	Sao Tome and Principe (Democratic Republic of)
-# 669	Swaziland (Kingdom of)
-# 670	Chad (Republic of)
-# 671	Togolese Republic
-# 672	Tunisia
-# 674	Tanzania (United Republic of)
-# 675	Uganda (Republic of)
-# 676	Democratic Republic of the Congo
-# 677	Tanzania (United Republic of)
-# 678	Zambia (Republic of)
-# 679	Zimbabwe (Republic of)
-# 701	Argentine Republic
-# 710	Brazil (Federative Republic of)
-# 720	Bolivia (Plurinational State of)
-# 725	Chile
-# 730	Colombia (Republic of)
-# 735	Ecuador
-# 740	Falkland Islands (Malvinas) - United Kingdom of Great Britain and Northern Ireland
-# 745	Guiana (French Department of) - France
-# 750	Guyana
-# 755	Paraguay (Republic of)
-# 760	Peru
-# 765	Suriname (Republic of)
-# 770	Uruguay (Eastern Republic of)
-# 775	Venezuela (Bolivarian Republic of)

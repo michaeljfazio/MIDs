@@ -247,7 +247,7 @@
 655,MW,MWI,"",Malawi (Republic of)
 656,NG,NGA,"",Nigeria (Federal Republic of)
 659,NA,NAM,"",Namibia (Republic of)
-660,RE,REU,"",Réunion (French Department of)
+660,RE,REU,"",Reunion (French Department of)
 661,RW,RWA,"",Rwanda (Republic of)
 662,SD,SDN,"",Sudan (Republic of the)
 663,SN,SEN,"",Senegal (Republic of)
@@ -255,8 +255,28 @@
 665,SH,SHN,"","Saint Helena, Ascension and Tristan da Cunha"
 666,SO,SOM,"",Somali Democratic Republic
 667,SL,SLE,"",Sierra Leone (Republic of)
-668,ST,STP,"",São Tomé and Príncipe (Democratic Republic of)
+668,ST,STP,"",Sao Tome and Principe (Democratic Republic of)
 669,SZ,SWZ,"",Swaziland (Kingdom of)
 670,TD,TCD,"",Chad (Republic of)
 671,TG,TGO,"",Togolese Republic
 672,TN,TUN,"",Tunisian Republic
+674,TZ,TZA,"",Tanzania (United Republic of)
+675,UG,UGA,"",Uganda (Republic of)
+676,CD,COD,"",Democratic Republic of the Congo
+677,TZ,TZA,"",Tanzania (United Republic of)
+678,ZM,ZMB,"",Zambia (Republic of)
+679,ZW,ZWE,"",Zimbabwe (Republic of)
+701,AR,ARG,"",Argentine Republic
+710,BR,BRA,"",Brazil (Federative Republic of)
+720,BO,BOL,"",Bolivia (Plurinational State of)
+725,CL,CHL,"",Chile
+730,CO,COL,"",Colombia (Republic of)
+735,EC,ECU,"",Ecuador
+740,FK,FLK,"",Falkland Islands (Malvinas) - United Kingdom of Great Britain and Northern Ireland
+745,GF,GUF,"",Guiana - France
+750,GY,GUY,"",Guyana
+755,PY,PRY,"",Paraguay (Republic of)
+760,PE,PER,"",Peru
+765,SR,SUR,"",Suriname (Republic of)
+770,UY,URY,"",Uruguay (Eastern Republic of)
+775,VE,VEN,"",Venezuela (Bolivarian Republic of)

@@ -275,5 +275,46 @@ Table of Mapped MID Codes
 |  Libya |   LY |   LBY |     642    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ly.png) |
 |  Lesotho (Kingdom of) |   LS |   LSO |     644    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ls.png) |
 |  Mauritius (Republic of) |   MU |   MUS |     645    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mu.png) |
+|  Madagascar (Republic of) |   MG |   MDG |     647    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mg.png) |
+|  Mali (Republic of) |   ML |   MLI |     649    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ml.png) |
+|  Mozambique (Republic of) |   MZ |   MOZ |     650    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mz.png) |
+|  Mauritania (Islamic Republic of) |   MR |   MRT |     654    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mr.png) |
+|  Malawi (Republic of) |   MW |   MWI |     655    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mw.png) |
+|  Nigeria (Federal Republic of) |   NG |   NGA |     656    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ng.png) |
+|  Namibia (Republic of) |   NA |   NAM |     659    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/na.png) |
+|  Reunion (French Department of) |   RE |   REU |     660    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/re.png) |
+|  Rwanda (Republic of) |   RW |   RWA |     661    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/rw.png) |
+|  Sudan (Republic of the) |   SD |   SDN |     662    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sd.png) |
+|  Senegal (Republic of) |   SN |   SEN |     663    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sn.png) |
+|  Seychelles (Republic of) |   SC |   SYC |     664    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sc.png) |
+|  Saint Helena, Ascension and Tristan da Cunha |   SH |   SHN |     665    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sh.png) |
+|  Somali Democratic Republic |   SO |   SOM |     666    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/so.png) |
+|  Sierra Leone (Republic of) |   SL |   SLE |     667    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sl.png) |
+|  Sao Tome and Principe (Democratic Republic of) |   ST |   STP |     668    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/st.png) |
+|  Swaziland (Kingdom of) |   SZ |   SWZ |     669    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sz.png) |
+|  Chad (Republic of) |   TD |   TCD |     670    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/td.png) |
+|  Togolese Republic |   TG |   TGO |     671    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tg.png) |
+|  Tunisian Republic |   TN |   TUN |     672    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tn.png) |
+|  Tanzania (United Republic of) |   TZ |   TZA |     674    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tz.png) |
+|  Uganda (Republic of) |   UG |   UGA |     675    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ug.png) |
+|  Democratic Republic of the Congo |   CD |   COD |     676    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cd.png) |
+|  Tanzania (United Republic of) |   TZ |   TZA |     677    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tz.png) |
+|  Zambia (Republic of) |   ZM |   ZMB |     678    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/zm.png) |
+|  Zimbabwe (Republic of) |   ZW |   ZWE |     679    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/zw.png) |
+|  Argentine Republic |   AR |   ARG |     701    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ar.png) |
+|  Brazil (Federative Republic of) |   BR |   BRA |     710    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/br.png) |
+|  Bolivia (Plurinational State of) |   BO |   BOL |     720    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/bo.png) |
+|  Chile |   CL |   CHL |     725    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cl.png) |
+|  Colombia (Republic of) |   CO |   COL |     730    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/co.png) |
+|  Ecuador |   EC |   ECU |     735    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ec.png) |
+|  Falkland Islands (Malvinas) - United Kingdom of Great Britain and Northern Ireland |   FK |   FLK |     740    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/fk.png) |
+|  Guiana - France |   GF |   GUF |     745    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gf.png) |
+|  Guyana |   GY |   GUY |     750    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gy.png) |
+|  Paraguay (Republic of) |   PY |   PRY |     755    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/py.png) |
+|  Peru |   PE |   PER |     760    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/pe.png) |
+|  Suriname (Republic of) |   SR |   SUR |     765    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sr.png) |
+|  Uruguay (Eastern Republic of) |   UY |   URY |     770    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/uy.png) |
+|  Venezuela (Bolivarian Republic of) |   VE |   VEN |     775    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ve.png) |
+
 
 [_Flags courtesy of Steven Skelton @ flag-icon_](https://github.com/stevenrskelton/flag-icon/)
