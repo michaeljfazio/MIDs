@@ -28,20 +28,19 @@
       </header>
       <section>
         <h1>
-<a name="introduction" class="anchor" href="#introduction"><span class="octicon octicon-link"></span></a>Introduction</h1>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h1>
 
 <p>This project is intended to help map Maritime Identification Digits (MID) to ISO 3166 Country Codes.</p>
 
 <h1>
-<a name="using-mids-with-bower" class="anchor" href="#using-mids-with-bower"><span class="octicon octicon-link"></span></a>Using MIDs with Bower</h1>
+<a id="using-mids-with-bower" class="anchor" href="#using-mids-with-bower" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using MIDs with Bower</h1>
 
 <p>If your project is using <a href="http://bower.io">bower</a>, then you can add MIDs as a dependency by invoking the following command:</p>
 
-<pre lang="shell"><code>bower install mids --save
-</code></pre>
+<div class="highlight highlight-shell"><pre>bower install mids --save</pre></div>
 
 <h1>
-<a name="what-are-maritime-identification-digits" class="anchor" href="#what-are-maritime-identification-digits"><span class="octicon octicon-link"></span></a>What are Maritime Identification Digits?</h1>
+<a id="what-are-maritime-identification-digits" class="anchor" href="#what-are-maritime-identification-digits" aria-hidden="true"><span class="octicon octicon-link"></span></a>What are Maritime Identification Digits?</h1>
 
 <p>Maritime identification digits are used by radio communication facilities to identify their home country or base area in Digital Selective Calling (DSC), Automatic Transmitter Identification System (ATIS), and Automatic Identification System (AIS) messages as part of their Maritime Mobile Service Identities (MMSI).</p>
 
@@ -50,14 +49,14 @@
 <p>For more information visit <a href="http://en.wikipedia.org/wiki/Maritime_identification_digits">Wikipedia: Maritime Indentification Digits</a></p>
 
 <h1>
-<a name="maritime-mobile-service-identity" class="anchor" href="#maritime-mobile-service-identity"><span class="octicon octicon-link"></span></a>Maritime Mobile Service Identity</h1>
+<a id="maritime-mobile-service-identity" class="anchor" href="#maritime-mobile-service-identity" aria-hidden="true"><span class="octicon octicon-link"></span></a>Maritime Mobile Service Identity</h1>
 
 <p>A Maritime Mobile Service Identity (MMSI) is a series of nine digits which are sent in digital form over a radio frequency channel for unique identification. These identities are formed in such a way that the identity or part thereof can be used by telephone and telex subscribers connected to the general telecommunications network to call ships.</p>
 
 <p>For more information visit <a href="http://en.wikipedia.org/wiki/Maritime_Mobile_Service_Identity">Wikipedia: Maritime Mobile Service Identity</a></p>
 
 <h1>
-<a name="generating-mids-mappings" class="anchor" href="#generating-mids-mappings"><span class="octicon octicon-link"></span></a>Generating MIDs Mappings</h1>
+<a id="generating-mids-mappings" class="anchor" href="#generating-mids-mappings" aria-hidden="true"><span class="octicon octicon-link"></span></a>Generating MIDs Mappings</h1>
 
 <p>This project uses Ruby to specify the mapping between MID codes and countries. The Rakefile in the root directory contains this information. The following Rake targets can be invoked to generate MIDs mapping files in one of several formats:</p>
 
@@ -70,29 +69,33 @@
 <strong>generate_json</strong> JSON output format</li>
 <li>
 <strong>default</strong> Generates all output formats</li>
-</ul><p>Unless contributing to the project, these targets should not need to be invoked as we generate and commit each of the supported mapping formats.</p>
+</ul>
+
+<p>Unless contributing to the project, these targets should not need to be invoked as we generate and commit each of the supported mapping formats.</p>
 
 <h1>
-<a name="table-of-mapped-mid-codes" class="anchor" href="#table-of-mapped-mid-codes"><span class="octicon octicon-link"></span></a>Table of Mapped MID Codes</h1>
+<a id="table-of-mapped-mid-codes" class="anchor" href="#table-of-mapped-mid-codes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Table of Mapped MID Codes</h1>
 
 <table>
-<thead><tr>
+<thead>
+<tr>
 <th align="left">Country</th>
 <th align="center">Alpha-2</th>
 <th align="center">Alpha-3</th>
 <th align="center">MID</th>
 <th align="center">Flag</th>
-</tr></thead>
+</tr>
+</thead>
 <tbody>
 <tr>
-<td align="left">Albania (Republic of)</td>
+<td align="left">Albania</td>
 <td align="center">AL</td>
 <td align="center">ALB</td>
 <td align="center">201</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/al.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Andorra (Principality of)</td>
+<td align="left">Andorra</td>
 <td align="center">AD</td>
 <td align="center">AND</td>
 <td align="center">202</td>
@@ -106,7 +109,7 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/at.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Azores - Portugal</td>
+<td align="left">Azores</td>
 <td align="center">PT</td>
 <td align="center">PRT</td>
 <td align="center">204</td>
@@ -120,14 +123,14 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/be.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Belarus (Republic of)</td>
+<td align="left">Belarus</td>
 <td align="center">BY</td>
 <td align="center">BLR</td>
 <td align="center">206</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/by.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Bulgaria (Republic of)</td>
+<td align="left">Bulgaria</td>
 <td align="center">BG</td>
 <td align="center">BGR</td>
 <td align="center">207</td>
@@ -141,28 +144,28 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/va.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Cyprus (Republic of)</td>
+<td align="left">Cyprus</td>
 <td align="center">CY</td>
 <td align="center">CYP</td>
 <td align="center">209</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cy.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Cyprus (Republic of)</td>
+<td align="left">Cyprus</td>
 <td align="center">CY</td>
 <td align="center">CYP</td>
 <td align="center">210</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cy.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Germany (Federal Republic of)</td>
+<td align="left">Germany</td>
 <td align="center">DE</td>
 <td align="center">DEU</td>
 <td align="center">211</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/de.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Cyprus (Republic of)</td>
+<td align="left">Cyprus</td>
 <td align="center">CY</td>
 <td align="center">CYP</td>
 <td align="center">212</td>
@@ -176,7 +179,7 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ge.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Moldova (Republic of)</td>
+<td align="left">Moldova</td>
 <td align="center">MD</td>
 <td align="center">MDA</td>
 <td align="center">214</td>
@@ -190,14 +193,14 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mt.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Armenia (Republic of)</td>
+<td align="left">Armenia</td>
 <td align="center">AM</td>
 <td align="center">ARM</td>
 <td align="center">216</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/am.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Germany (Federal Republic of)</td>
+<td align="left">Germany</td>
 <td align="center">DE</td>
 <td align="center">DEU</td>
 <td align="center">218</td>
@@ -260,42 +263,42 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/fi.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Faroe Islands - Denmark</td>
+<td align="left">Faroe Islands</td>
 <td align="center">FO</td>
 <td align="center">FRO</td>
 <td align="center">231</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/fo.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">United Kingdom of Great Britain and Northern Ireland</td>
+<td align="left">United Kingdom</td>
 <td align="center">GB</td>
 <td align="center">GBR</td>
 <td align="center">232</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gb.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">United Kingdom of Great Britain and Northern Ireland</td>
+<td align="left">United Kingdom</td>
 <td align="center">GB</td>
 <td align="center">GBR</td>
 <td align="center">233</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gb.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">United Kingdom of Great Britain and Northern Ireland</td>
+<td align="left">United Kingdom</td>
 <td align="center">GB</td>
 <td align="center">GBR</td>
 <td align="center">234</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gb.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">United Kingdom of Great Britain and Northern Ireland</td>
+<td align="left">United Kingdom</td>
 <td align="center">GB</td>
 <td align="center">GBR</td>
 <td align="center">235</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gb.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Gibraltar - United Kingdom of Great Britain and Northern Ireland</td>
+<td align="left">Gibraltar</td>
 <td align="center">GI</td>
 <td align="center">GIB</td>
 <td align="center">236</td>
@@ -309,7 +312,7 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gr.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Croatia (Republic of)</td>
+<td align="left">Croatia</td>
 <td align="center">HR</td>
 <td align="center">HRV</td>
 <td align="center">238</td>
@@ -337,7 +340,7 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gr.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Morocco (Kingdom of)</td>
+<td align="left">Morocco</td>
 <td align="center">MA</td>
 <td align="center">MAR</td>
 <td align="center">242</td>
@@ -351,21 +354,21 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/hu.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Netherlands (Kingdom of the)</td>
+<td align="left">Netherlands</td>
 <td align="center">NL</td>
 <td align="center">NLD</td>
 <td align="center">244</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/nl.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Netherlands (Kingdom of the)</td>
+<td align="left">Netherlands</td>
 <td align="center">NL</td>
 <td align="center">NLD</td>
 <td align="center">245</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/nl.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Netherlands (Kingdom of the)</td>
+<td align="left">Netherlands</td>
 <td align="center">NL</td>
 <td align="center">NLD</td>
 <td align="center">246</td>
@@ -400,7 +403,7 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/is.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Liechtenstein (Principality of)</td>
+<td align="left">Liechtenstein</td>
 <td align="center">LI</td>
 <td align="center">LIE</td>
 <td align="center">252</td>
@@ -414,14 +417,14 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/lu.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Monaco (Principality of)</td>
+<td align="left">Monaco</td>
 <td align="center">MC</td>
 <td align="center">MCO</td>
 <td align="center">254</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mc.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Madeira - Portugal</td>
+<td align="left">Madeira</td>
 <td align="center">PT</td>
 <td align="center">PRT</td>
 <td align="center">255</td>
@@ -456,7 +459,7 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/no.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Poland (Republic of)</td>
+<td align="left">Poland</td>
 <td align="center">PL</td>
 <td align="center">POL</td>
 <td align="center">261</td>
@@ -505,14 +508,14 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sk.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">San Marino (Republic of)</td>
+<td align="left">San Marino</td>
 <td align="center">SM</td>
 <td align="center">SMR</td>
 <td align="center">268</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sm.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Switzerland (Confederation of)</td>
+<td align="left">Switzerland</td>
 <td align="center">CH</td>
 <td align="center">CHE</td>
 <td align="center">269</td>
@@ -540,63 +543,63 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ua.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Russian Federation</td>
+<td align="left">Russia</td>
 <td align="center">RU</td>
 <td align="center">RUS</td>
 <td align="center">273</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ru.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">The Former Yugoslav Republic of Macedonia</td>
+<td align="left">Macedonia</td>
 <td align="center">MK</td>
 <td align="center">MKD</td>
 <td align="center">274</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mk.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Latvia (Republic of)</td>
+<td align="left">Latvia</td>
 <td align="center">LV</td>
 <td align="center">LVA</td>
 <td align="center">275</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/lv.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Estonia (Republic of)</td>
+<td align="left">Estonia</td>
 <td align="center">EE</td>
 <td align="center">EST</td>
 <td align="center">276</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ee.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Lithuania (Republic of)</td>
+<td align="left">Lithuania</td>
 <td align="center">LT</td>
 <td align="center">LTU</td>
 <td align="center">277</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/lt.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Slovenia (Republic of)</td>
+<td align="left">Slovenia</td>
 <td align="center">SI</td>
 <td align="center">SVN</td>
 <td align="center">278</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/si.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Serbia (Republic of)</td>
+<td align="left">Serbia</td>
 <td align="center">RS</td>
 <td align="center">SRB</td>
 <td align="center">279</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/rs.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Anguilla - United Kingdom of Great Britain and Northern Ireland</td>
+<td align="left">Anguilla</td>
 <td align="center">AI</td>
 <td align="center">AIA</td>
 <td align="center">301</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ai.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Alaska (State of) - United States of America</td>
+<td align="left">Alaska</td>
 <td align="center">US</td>
 <td align="center">USA</td>
 <td align="center">303</td>
@@ -617,42 +620,42 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ag.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Antilles - Netherlands (Kingdom of the)</td>
+<td align="left">Antilles</td>
 <td align="center">CW</td>
 <td align="center">CUW</td>
 <td align="center">306</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cw.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Aruba - Netherlands (Kingdom of the)</td>
+<td align="left">Aruba</td>
 <td align="center">AW</td>
 <td align="center">ABW</td>
 <td align="center">307</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/aw.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Bahamas (Commonwealth of the)</td>
+<td align="left">Bahamas</td>
 <td align="center">BS</td>
 <td align="center">BHS</td>
 <td align="center">308</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/bs.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Bahamas (Commonwealth of the)</td>
+<td align="left">Bahamas</td>
 <td align="center">BS</td>
 <td align="center">BHS</td>
 <td align="center">309</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/bs.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Bermuda - United Kingdom of Great Britain and Northern Ireland</td>
+<td align="left">Bermuda</td>
 <td align="center">BM</td>
 <td align="center">BMU</td>
 <td align="center">310</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/bm.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Bahamas (Commonwealth of the)</td>
+<td align="left">Bahamas</td>
 <td align="center">BS</td>
 <td align="center">BMU</td>
 <td align="center">311</td>
@@ -680,7 +683,7 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ca.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Cayman Islands - United Kingdom of Great Britain and Northern Ireland</td>
+<td align="left">Cayman Islands</td>
 <td align="center">KY</td>
 <td align="center">CYM</td>
 <td align="center">319</td>
@@ -701,7 +704,7 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cu.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Dominica (Commonwealth of)</td>
+<td align="left">Dominica</td>
 <td align="center">DM</td>
 <td align="center">DMA</td>
 <td align="center">325</td>
@@ -715,7 +718,7 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/do.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Guadeloupe (French Department of) - France</td>
+<td align="left">Guadeloupe</td>
 <td align="center">GP</td>
 <td align="center">GLP</td>
 <td align="center">329</td>
@@ -729,28 +732,28 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gd.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Greenland - Denmark</td>
+<td align="left">Greenland</td>
 <td align="center">GL</td>
 <td align="center">GRL</td>
 <td align="center">331</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gl.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Guatemala (Republic of)</td>
+<td align="left">Guatemala</td>
 <td align="center">GT</td>
 <td align="center">GTM</td>
 <td align="center">332</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gt.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Honduras (Republic of)</td>
+<td align="left">Honduras</td>
 <td align="center">HN</td>
 <td align="center">HND</td>
 <td align="center">335</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/hn.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Haiti (Republic of)</td>
+<td align="left">Haiti</td>
 <td align="center">HT</td>
 <td align="center">HTI</td>
 <td align="center">336</td>
@@ -771,7 +774,7 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/jm.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Saint Kitts and Nevis (Federation of)</td>
+<td align="left">Saint Kitts and Nevis</td>
 <td align="center">KN</td>
 <td align="center">KNA</td>
 <td align="center">341</td>
@@ -792,14 +795,14 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mx.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Martinique (French Department of) - France</td>
+<td align="left">Martinique</td>
 <td align="center">MQ</td>
 <td align="center">MTQ</td>
 <td align="center">347</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mq.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Montserrat - United Kingdom of Great Britain and Northern Ireland</td>
+<td align="left">Montserrat</td>
 <td align="center">MS</td>
 <td align="center">MSR</td>
 <td align="center">348</td>
@@ -813,49 +816,49 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ni.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Panama (Republic of)</td>
+<td align="left">Panama</td>
 <td align="center">PA</td>
 <td align="center">PAN</td>
 <td align="center">351</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/pa.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Panama (Republic of)</td>
+<td align="left">Panama</td>
 <td align="center">PA</td>
 <td align="center">PAN</td>
 <td align="center">352</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/pa.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Panama (Republic of)</td>
+<td align="left">Panama</td>
 <td align="center">PA</td>
 <td align="center">PAN</td>
 <td align="center">353</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/pa.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Panama (Republic of)</td>
+<td align="left">Panama</td>
 <td align="center">PA</td>
 <td align="center">PAN</td>
 <td align="center">354</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/pa.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Puerto Rico - United States of America</td>
+<td align="left">Puerto Rico</td>
 <td align="center">PR</td>
 <td align="center">PRI</td>
 <td align="center">358</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/pr.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">El Salvador (Republic of)</td>
+<td align="left">El Salvador</td>
 <td align="center">SV</td>
 <td align="center">SLV</td>
 <td align="center">359</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sv.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Saint Pierre and Miquelon (Territorial Collectivity of) - France</td>
+<td align="left">Saint Pierre and Miquelon</td>
 <td align="center">PM</td>
 <td align="center">SPM</td>
 <td align="center">361</td>
@@ -869,7 +872,7 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tt.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Turks and Caicos Islands - United Kingdom of Great Britain and Northern Ireland</td>
+<td align="left">Turks and Caicos Islands</td>
 <td align="center">TC</td>
 <td align="center">TCA</td>
 <td align="center">364</td>
@@ -904,28 +907,28 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/us.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Panama (Republic of)</td>
+<td align="left">Panama</td>
 <td align="center">PA</td>
 <td align="center">PAN</td>
 <td align="center">370</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/pa.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Panama (Republic of)</td>
+<td align="left">Panama</td>
 <td align="center">PA</td>
 <td align="center">PAN</td>
 <td align="center">371</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/pa.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Panama (Republic of)</td>
+<td align="left">Panama</td>
 <td align="center">PA</td>
 <td align="center">PAN</td>
 <td align="center">372</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/pa.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Panama (Republic of)</td>
+<td align="left">Panama</td>
 <td align="center">PA</td>
 <td align="center">PAN</td>
 <td align="center">373</td>
@@ -953,14 +956,14 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/vc.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">British Virgin Islands - United Kingdom of Great Britain and Northern Ireland</td>
+<td align="left">British Virgin Islands</td>
 <td align="center">VG</td>
 <td align="center">VGB</td>
 <td align="center">378</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/vg.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">United States Virgin Islands - United States of America</td>
+<td align="left">United States Virgin Islands</td>
 <td align="center">VI</td>
 <td align="center">VIR</td>
 <td align="center">379</td>
@@ -974,98 +977,98 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/af.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Saudi Arabia (Kingdom of)</td>
+<td align="left">Saudi Arabia</td>
 <td align="center">SA</td>
 <td align="center">SAU</td>
 <td align="center">403</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sa.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Bangladesh (People's Republic of)</td>
+<td align="left">Bangladesh</td>
 <td align="center">BD</td>
 <td align="center">BGD</td>
 <td align="center">405</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/bd.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Bahrain (Kingdom of)</td>
+<td align="left">Bahrain</td>
 <td align="center">BH</td>
 <td align="center">BHR</td>
 <td align="center">408</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/bh.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Bhutan (Kingdom of)</td>
+<td align="left">Bhutan</td>
 <td align="center">BT</td>
 <td align="center">BTN</td>
 <td align="center">410</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/bt.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">China (People's Republic of)</td>
+<td align="left">China</td>
 <td align="center">CN</td>
 <td align="center">CHN</td>
 <td align="center">412</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cn.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">China (People's Republic of)</td>
+<td align="left">China</td>
 <td align="center">CN</td>
 <td align="center">CHN</td>
 <td align="center">413</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cn.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">China (People's Republic of)</td>
+<td align="left">China</td>
 <td align="center">CN</td>
 <td align="center">CHN</td>
 <td align="center">414</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cn.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Taiwan (Province of China) - China (People's Republic of)</td>
+<td align="left">Taiwan</td>
 <td align="center">TW</td>
 <td align="center">TWN</td>
 <td align="center">416</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tw.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Sri Lanka (Democratic Socialist Republic of)</td>
+<td align="left">Sri Lanka</td>
 <td align="center">LK</td>
 <td align="center">LKA</td>
 <td align="center">417</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/lk.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">India (Republic of)</td>
+<td align="left">India</td>
 <td align="center">IN</td>
 <td align="center">IND</td>
 <td align="center">419</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/in.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Iran (Islamic Republic of)</td>
+<td align="left">Iran</td>
 <td align="center">IR</td>
 <td align="center">IRN</td>
 <td align="center">422</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ir.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Azerbaijan (Republic of)</td>
+<td align="left">Azerbaijan</td>
 <td align="center">AZ</td>
 <td align="center">AZE</td>
 <td align="center">423</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/az.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Iraq (Republic of)</td>
+<td align="left">Iraq</td>
 <td align="center">IQ</td>
 <td align="center">IRQ</td>
 <td align="center">425</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/iq.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Israel (State of)</td>
+<td align="left">Israel</td>
 <td align="center">IL</td>
 <td align="center">ISR</td>
 <td align="center">428</td>
@@ -1093,42 +1096,42 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tm.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Kazakhstan (Republic of)</td>
+<td align="left">Kazakhstan</td>
 <td align="center">KZ</td>
 <td align="center">KAZ</td>
 <td align="center">436</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/kz.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Uzbekistan (Republic of)</td>
+<td align="left">Uzbekistan</td>
 <td align="center">UZ</td>
 <td align="center">UZB</td>
 <td align="center">437</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/uz.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Jordan (Hashemite Kingdom of)</td>
+<td align="left">Jordan</td>
 <td align="center">JO</td>
 <td align="center">JOR</td>
 <td align="center">438</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/jo.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Korea (Republic of)</td>
+<td align="left">Korea</td>
 <td align="center">KR</td>
 <td align="center">KOR</td>
 <td align="center">440</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/kr.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Korea (Republic of)</td>
+<td align="left">Korea</td>
 <td align="center">KR</td>
 <td align="center">KOR</td>
 <td align="center">441</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/kr.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">State of Palestine (In accordance with Resolution 99 Rev. Guadalajara, 2010)</td>
+<td align="left">State of Palestine</td>
 <td align="center">PS</td>
 <td align="center">PSE</td>
 <td align="center">443</td>
@@ -1142,7 +1145,7 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/kp.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Kuwait (State of)</td>
+<td align="left">Kuwait</td>
 <td align="center">KW</td>
 <td align="center">KWT</td>
 <td align="center">447</td>
@@ -1163,14 +1166,14 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/kg.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Macao (Special Administrative Region of China) - China (People's Republic of)</td>
+<td align="left">Macao</td>
 <td align="center">MO</td>
 <td align="center">MAC</td>
 <td align="center">453</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mo.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Maldives (Republic of)</td>
+<td align="left">Maldives</td>
 <td align="center">MV</td>
 <td align="center">MDV</td>
 <td align="center">455</td>
@@ -1184,21 +1187,21 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mn.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Nepal (Federal Democratic Republic of)</td>
+<td align="left">Nepal</td>
 <td align="center">NP</td>
 <td align="center">NPL</td>
 <td align="center">459</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/np.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Oman (Sultanate of)</td>
+<td align="left">Oman</td>
 <td align="center">OM</td>
 <td align="center">OMN</td>
 <td align="center">461</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/om.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Pakistan (Islamic Republic of)</td>
+<td align="left">Pakistan</td>
 <td align="center">PK</td>
 <td align="center">PAK</td>
 <td align="center">463</td>
@@ -1226,28 +1229,28 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ae.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Tajikistan (Republic of)</td>
+<td align="left">Tajikistan</td>
 <td align="center">TJ</td>
 <td align="center">TJK</td>
 <td align="center">472</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tj.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Yemen (Republic of)</td>
+<td align="left">Yemen</td>
 <td align="center">YE</td>
 <td align="center">YEM</td>
 <td align="center">473</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ye.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Yemen (Republic of)</td>
+<td align="left">Yemen</td>
 <td align="center">YE</td>
 <td align="center">YEM</td>
 <td align="center">475</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ye.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Hong Kong (Special Administrative Region of China) - China (People's Republic of)</td>
+<td align="left">Hong Kong</td>
 <td align="center">HK</td>
 <td align="center">HKG</td>
 <td align="center">477</td>
@@ -1261,7 +1264,7 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ba.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Adelie Land - France</td>
+<td align="left">Adelie Land</td>
 <td align="center">FR</td>
 <td align="center">FRA</td>
 <td align="center">501</td>
@@ -1275,7 +1278,7 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/au.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Myanmar (Union of)</td>
+<td align="left">Myanmar</td>
 <td align="center">MM</td>
 <td align="center">MMR</td>
 <td align="center">506</td>
@@ -1289,14 +1292,14 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/bn.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Micronesia (Federated States of)</td>
+<td align="left">Micronesia</td>
 <td align="center">FM</td>
 <td align="center">FSM</td>
 <td align="center">510</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/fm.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Palau (Republic of)</td>
+<td align="left">Palau</td>
 <td align="center">PW</td>
 <td align="center">PLW</td>
 <td align="center">511</td>
@@ -1310,56 +1313,56 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/nz.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Cambodia (Kingdom of)</td>
+<td align="left">Cambodia</td>
 <td align="center">KH</td>
 <td align="center">KHM</td>
 <td align="center">514</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/kh.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Cambodia (Kingdom of)</td>
+<td align="left">Cambodia</td>
 <td align="center">KH</td>
 <td align="center">KHM</td>
 <td align="center">515</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/kh.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Christmas Island (Indian Ocean) - Australia</td>
+<td align="left">Christmas Island</td>
 <td align="center">CX</td>
 <td align="center">CXR</td>
 <td align="center">516</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cx.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Cook Islands - New Zealand</td>
+<td align="left">Cook Islands</td>
 <td align="center">CK</td>
 <td align="center">COK</td>
 <td align="center">518</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ck.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Fiji (Republic of)</td>
+<td align="left">Fiji</td>
 <td align="center">FJ</td>
 <td align="center">FJI</td>
 <td align="center">520</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/fj.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Cocos (Keeling) Islands - Australia</td>
+<td align="left">Cocos (Keeling) Islands</td>
 <td align="center">CC</td>
 <td align="center">CCK</td>
 <td align="center">523</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cc.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Indonesia (Republic of)</td>
+<td align="left">Indonesia</td>
 <td align="center">ID</td>
 <td align="center">IDN</td>
 <td align="center">525</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/id.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Kiribati (Republic of)</td>
+<td align="left">Kiribati</td>
 <td align="center">KI</td>
 <td align="center">KIR</td>
 <td align="center">529</td>
@@ -1380,49 +1383,49 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/my.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Northern Mariana Islands (Commonwealth of the) - United States of America</td>
+<td align="left">Northern Mariana Islands</td>
 <td align="center">MP</td>
 <td align="center">MNP</td>
 <td align="center">536</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mp.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Marshall Islands (Republic of the)</td>
+<td align="left">Marshall Islands</td>
 <td align="center">MH</td>
 <td align="center">MHL</td>
 <td align="center">538</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mh.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">New Caledonia - France</td>
+<td align="left">New Caledonia</td>
 <td align="center">NC</td>
 <td align="center">NCL</td>
 <td align="center">540</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/nc.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Niue - New Zealand</td>
+<td align="left">Niue</td>
 <td align="center">NU</td>
 <td align="center">NIU</td>
 <td align="center">542</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/nu.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Nauru (Republic of)</td>
+<td align="left">Nauru</td>
 <td align="center">NR</td>
 <td align="center">NRU</td>
 <td align="center">544</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/nr.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">French Polynesia - France</td>
+<td align="left">French Polynesia</td>
 <td align="center">PF</td>
 <td align="center">PYF</td>
 <td align="center">546</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/pf.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Philippines (Republic of the)</td>
+<td align="left">Philippines</td>
 <td align="center">PH</td>
 <td align="center">PHL</td>
 <td align="center">548</td>
@@ -1436,7 +1439,7 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/pg.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Pitcairn Island - United Kingdom of Great Britain and Northern Ireland</td>
+<td align="left">Pitcairn Island</td>
 <td align="center">PN</td>
 <td align="center">PCN</td>
 <td align="center">555</td>
@@ -1450,42 +1453,42 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sb.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">American Samoa - United States of America</td>
+<td align="left">American Samoa</td>
 <td align="center">AS</td>
 <td align="center">ASM</td>
 <td align="center">559</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/as.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Samoa (Independent State of)</td>
+<td align="left">Samoa</td>
 <td align="center">WS</td>
 <td align="center">WSM</td>
 <td align="center">561</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ws.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Singapore (Republic of)</td>
+<td align="left">Singapore</td>
 <td align="center">SG</td>
 <td align="center">SGP</td>
 <td align="center">563</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sg.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Singapore (Republic of)</td>
+<td align="left">Singapore</td>
 <td align="center">SG</td>
 <td align="center">SGP</td>
 <td align="center">564</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sg.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Singapore (Republic of)</td>
+<td align="left">Singapore</td>
 <td align="center">SG</td>
 <td align="center">SGP</td>
 <td align="center">565</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sg.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Singapore (Republic of)</td>
+<td align="left">Singapore</td>
 <td align="center">SG</td>
 <td align="center">SGP</td>
 <td align="center">566</td>
@@ -1499,7 +1502,7 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/th.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Tonga (Kingdom of)</td>
+<td align="left">Tonga</td>
 <td align="center">TO</td>
 <td align="center">TON</td>
 <td align="center">570</td>
@@ -1513,154 +1516,154 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tv.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Viet Nam (Socialist Republic of)</td>
+<td align="left">Viet Nam</td>
 <td align="center">VN</td>
 <td align="center">VNM</td>
 <td align="center">574</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/vn.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Vanuatu (Republic of)</td>
+<td align="left">Vanuatu</td>
 <td align="center">VU</td>
 <td align="center">VUT</td>
 <td align="center">576</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/vu.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Vanuatu (Republic of)</td>
+<td align="left">Vanuatu</td>
 <td align="center">VU</td>
 <td align="center">VUT</td>
 <td align="center">577</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/vu.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Wallis and Futuna Islands - France</td>
+<td align="left">Wallis and Futuna Islands</td>
 <td align="center">WF</td>
 <td align="center">WLF</td>
 <td align="center">578</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/wf.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">South Africa (Republic of)</td>
+<td align="left">South Africa</td>
 <td align="center">ZA</td>
 <td align="center">ZAF</td>
 <td align="center">601</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/za.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Angola (Republic of)</td>
+<td align="left">Angola</td>
 <td align="center">AO</td>
 <td align="center">AGO</td>
 <td align="center">603</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ao.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Algeria (People's Democratic Republic of)</td>
+<td align="left">Algeria</td>
 <td align="center">DZ</td>
 <td align="center">DZA</td>
 <td align="center">605</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/dz.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Saint Paul and Amsterdam Islands - France</td>
+<td align="left">Saint Paul and Amsterdam Islands</td>
 <td align="center">FR</td>
 <td align="center">FRA</td>
 <td align="center">607</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/fr.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Ascension Island - United Kingdom of Great Britain and Northern Ireland</td>
+<td align="left">Ascension Island</td>
 <td align="center">GB</td>
 <td align="center">GBR</td>
 <td align="center">608</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gb.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Burundi (Republic of)</td>
+<td align="left">Burundi</td>
 <td align="center">BI</td>
 <td align="center">BDI</td>
 <td align="center">609</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/bi.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Benin (Republic of)</td>
+<td align="left">Benin</td>
 <td align="center">BJ</td>
 <td align="center">BEN</td>
 <td align="center">610</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/bj.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Botswana (Republic of)</td>
+<td align="left">Botswana</td>
 <td align="center">BW</td>
 <td align="center">BWA</td>
 <td align="center">611</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/bw.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Djibouti (Republic of)</td>
+<td align="left">Djibouti</td>
 <td align="center">DJ</td>
 <td align="center">DJI</td>
 <td align="center">621</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/dj.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Cameroon (Republic of)</td>
+<td align="left">Cameroon</td>
 <td align="center">CM</td>
 <td align="center">CMR</td>
 <td align="center">613</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cm.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Congo (Republic of the)</td>
+<td align="left">Congo</td>
 <td align="center">CG</td>
 <td align="center">COG</td>
 <td align="center">615</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cg.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Comoros (Union of the)</td>
+<td align="left">Comoros</td>
 <td align="center">KM</td>
 <td align="center">COM</td>
 <td align="center">616</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/km.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Cabo Verde (Republic of)</td>
+<td align="left">Cabo Verde</td>
 <td align="center">CV</td>
 <td align="center">CPV</td>
 <td align="center">617</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cv.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Crozet Archipelago - France</td>
+<td align="left">Crozet Archipelago</td>
 <td align="center">FR</td>
 <td align="center">FRA</td>
 <td align="center">618</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/fr.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Ivory Coast (Republic of)</td>
+<td align="left">Ivory Coast</td>
 <td align="center">CI</td>
 <td align="center">CIV</td>
 <td align="center">619</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ci.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Comoros (Union of the)</td>
+<td align="left">Comoros</td>
 <td align="center">KM</td>
 <td align="center">COM</td>
 <td align="center">620</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/km.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Egypt (Arab Republic of)</td>
+<td align="left">Egypt</td>
 <td align="center">EG</td>
 <td align="center">EGY</td>
 <td align="center">622</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/eg.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Ethiopia (Federal Democratic Republic of)</td>
+<td align="left">Ethiopia</td>
 <td align="center">ET</td>
 <td align="center">ETH</td>
 <td align="center">624</td>
@@ -1688,28 +1691,28 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gh.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Gambia (Republic of the)</td>
+<td align="left">Gambia</td>
 <td align="center">GM</td>
 <td align="center">GMB</td>
 <td align="center">629</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gm.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Guinea-Bissau (Republic of)</td>
+<td align="left">Guinea-Bissau</td>
 <td align="center">GW</td>
 <td align="center">GNB</td>
 <td align="center">630</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gw.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Equatorial Guinea (Republic of)</td>
+<td align="left">Equatorial Guinea</td>
 <td align="center">GQ</td>
 <td align="center">GNQ</td>
 <td align="center">631</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gq.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Guinea (Republic of)</td>
+<td align="left">Guinea</td>
 <td align="center">GN</td>
 <td align="center">GIN</td>
 <td align="center">632</td>
@@ -1723,35 +1726,35 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/bf.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Kenya (Republic of)</td>
+<td align="left">Kenya</td>
 <td align="center">KE</td>
 <td align="center">KEN</td>
 <td align="center">634</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ke.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Kerguelen Islands - France</td>
+<td align="left">Kerguelen Islands</td>
 <td align="center">FR</td>
 <td align="center">FRA</td>
 <td align="center">635</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/fr.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Liberia (Republic of)</td>
+<td align="left">Liberia</td>
 <td align="center">LR</td>
 <td align="center">LBR</td>
 <td align="center">636</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/lr.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Liberia (Republic of)</td>
+<td align="left">Liberia</td>
 <td align="center">LR</td>
 <td align="center">LBR</td>
 <td align="center">637</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/lr.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">South Sudan (Republic of)</td>
+<td align="left">South Sudan</td>
 <td align="center">SS</td>
 <td align="center">SSD</td>
 <td align="center">638</td>
@@ -1765,105 +1768,105 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ly.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Lesotho (Kingdom of)</td>
+<td align="left">Lesotho</td>
 <td align="center">LS</td>
 <td align="center">LSO</td>
 <td align="center">644</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ls.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Mauritius (Republic of)</td>
+<td align="left">Mauritius</td>
 <td align="center">MU</td>
 <td align="center">MUS</td>
 <td align="center">645</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mu.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Madagascar (Republic of)</td>
+<td align="left">Madagascar</td>
 <td align="center">MG</td>
 <td align="center">MDG</td>
 <td align="center">647</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mg.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Mali (Republic of)</td>
+<td align="left">Mali</td>
 <td align="center">ML</td>
 <td align="center">MLI</td>
 <td align="center">649</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ml.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Mozambique (Republic of)</td>
+<td align="left">Mozambique</td>
 <td align="center">MZ</td>
 <td align="center">MOZ</td>
 <td align="center">650</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mz.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Mauritania (Islamic Republic of)</td>
+<td align="left">Mauritania</td>
 <td align="center">MR</td>
 <td align="center">MRT</td>
 <td align="center">654</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mr.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Malawi (Republic of)</td>
+<td align="left">Malawi</td>
 <td align="center">MW</td>
 <td align="center">MWI</td>
 <td align="center">655</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mw.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Nigeria (Federal Republic of)</td>
+<td align="left">Nigeria</td>
 <td align="center">NG</td>
 <td align="center">NGA</td>
 <td align="center">656</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ng.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Namibia (Republic of)</td>
+<td align="left">Namibia</td>
 <td align="center">NA</td>
 <td align="center">NAM</td>
 <td align="center">659</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/na.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Reunion (French Department of)</td>
+<td align="left">Reunion</td>
 <td align="center">RE</td>
 <td align="center">REU</td>
 <td align="center">660</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/re.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Rwanda (Republic of)</td>
+<td align="left">Rwanda</td>
 <td align="center">RW</td>
 <td align="center">RWA</td>
 <td align="center">661</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/rw.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Sudan (Republic of the)</td>
+<td align="left">Sudan</td>
 <td align="center">SD</td>
 <td align="center">SDN</td>
 <td align="center">662</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sd.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Senegal (Republic of)</td>
+<td align="left">Senegal</td>
 <td align="center">SN</td>
 <td align="center">SEN</td>
 <td align="center">663</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sn.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Seychelles (Republic of)</td>
+<td align="left">Seychelles</td>
 <td align="center">SC</td>
 <td align="center">SYC</td>
 <td align="center">664</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sc.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Saint Helena, Ascension and Tristan da Cunha</td>
+<td align="left">Saint Helena</td>
 <td align="center">SH</td>
 <td align="center">SHN</td>
 <td align="center">665</td>
@@ -1877,28 +1880,28 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/so.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Sierra Leone (Republic of)</td>
+<td align="left">Sierra Leone</td>
 <td align="center">SL</td>
 <td align="center">SLE</td>
 <td align="center">667</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sl.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Sao Tome and Principe (Democratic Republic of)</td>
+<td align="left">Sao Tome and Principe</td>
 <td align="center">ST</td>
 <td align="center">STP</td>
 <td align="center">668</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/st.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Swaziland (Kingdom of)</td>
+<td align="left">Swaziland</td>
 <td align="center">SZ</td>
 <td align="center">SWZ</td>
 <td align="center">669</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sz.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Chad (Republic of)</td>
+<td align="left">Chad</td>
 <td align="center">TD</td>
 <td align="center">TCD</td>
 <td align="center">670</td>
@@ -1919,14 +1922,14 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tn.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Tanzania (United Republic of)</td>
+<td align="left">Tanzania</td>
 <td align="center">TZ</td>
 <td align="center">TZA</td>
 <td align="center">674</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tz.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Uganda (Republic of)</td>
+<td align="left">Uganda</td>
 <td align="center">UG</td>
 <td align="center">UGA</td>
 <td align="center">675</td>
@@ -1940,21 +1943,21 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cd.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Tanzania (United Republic of)</td>
+<td align="left">Tanzania</td>
 <td align="center">TZ</td>
 <td align="center">TZA</td>
 <td align="center">677</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tz.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Zambia (Republic of)</td>
+<td align="left">Zambia</td>
 <td align="center">ZM</td>
 <td align="center">ZMB</td>
 <td align="center">678</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/zm.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Zimbabwe (Republic of)</td>
+<td align="left">Zimbabwe</td>
 <td align="center">ZW</td>
 <td align="center">ZWE</td>
 <td align="center">679</td>
@@ -1968,14 +1971,14 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ar.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Brazil (Federative Republic of)</td>
+<td align="left">Brazil</td>
 <td align="center">BR</td>
 <td align="center">BRA</td>
 <td align="center">710</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/br.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Bolivia (Plurinational State of)</td>
+<td align="left">Bolivia</td>
 <td align="center">BO</td>
 <td align="center">BOL</td>
 <td align="center">720</td>
@@ -1989,7 +1992,7 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cl.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Colombia (Republic of)</td>
+<td align="left">Colombia</td>
 <td align="center">CO</td>
 <td align="center">COL</td>
 <td align="center">730</td>
@@ -2003,14 +2006,14 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ec.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Falkland Islands (Malvinas) - United Kingdom of Great Britain and Northern Ireland</td>
+<td align="left">Falkland Islands</td>
 <td align="center">FK</td>
 <td align="center">FLK</td>
 <td align="center">740</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/fk.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Guiana - France</td>
+<td align="left">Guiana</td>
 <td align="center">GF</td>
 <td align="center">GUF</td>
 <td align="center">745</td>
@@ -2024,7 +2027,7 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gy.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Paraguay (Republic of)</td>
+<td align="left">Paraguay</td>
 <td align="center">PY</td>
 <td align="center">PRY</td>
 <td align="center">755</td>
@@ -2038,28 +2041,30 @@
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/pe.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Suriname (Republic of)</td>
+<td align="left">Suriname</td>
 <td align="center">SR</td>
 <td align="center">SUR</td>
 <td align="center">765</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sr.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Uruguay (Eastern Republic of)</td>
+<td align="left">Uruguay</td>
 <td align="center">UY</td>
 <td align="center">URY</td>
 <td align="center">770</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/uy.png" alt=""></td>
 </tr>
 <tr>
-<td align="left">Venezuela (Bolivarian Republic of)</td>
+<td align="left">Venezuela</td>
 <td align="center">VE</td>
 <td align="center">VEN</td>
 <td align="center">775</td>
 <td align="center"><img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ve.png" alt=""></td>
 </tr>
 </tbody>
-</table><p><a href="https://github.com/stevenrskelton/flag-icon/"><em>Flags courtesy of Steven Skelton @ flag-icon</em></a></p>
+</table>
+
+<p><a href="https://github.com/stevenrskelton/flag-icon/"><em>Flags courtesy of Steven Skelton @ flag-icon</em></a></p>
       </section>
     </div>
     <footer>
