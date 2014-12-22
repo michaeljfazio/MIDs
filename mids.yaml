@@ -3,12 +3,12 @@
 - AL
 - ALB
 - ''
-- Albania (Republic of)
+- Albania
 202:
 - AD
 - AND
 - ''
-- Andorra (Principality of)
+- Andorra
 203:
 - AT
 - AUT
@@ -18,7 +18,7 @@
 - PT
 - PRT
 - PT-20
-- Azores - Portugal
+- Azores
 205:
 - BE
 - BEL
@@ -28,12 +28,12 @@
 - BY
 - BLR
 - ''
-- Belarus (Republic of)
+- Belarus
 207:
 - BG
 - BGR
 - ''
-- Bulgaria (Republic of)
+- Bulgaria
 208:
 - VA
 - VAT
@@ -43,22 +43,22 @@
 - CY
 - CYP
 - ''
-- Cyprus (Republic of)
+- Cyprus
 210:
 - CY
 - CYP
 - ''
-- Cyprus (Republic of)
+- Cyprus
 211:
 - DE
 - DEU
 - ''
-- Germany (Federal Republic of)
+- Germany
 212:
 - CY
 - CYP
 - ''
-- Cyprus (Republic of)
+- Cyprus
 213:
 - GE
 - GEO
@@ -68,7 +68,7 @@
 - MD
 - MDA
 - ''
-- Moldova (Republic of)
+- Moldova
 215:
 - MT
 - MLT
@@ -78,12 +78,12 @@
 - AM
 - ARM
 - ''
-- Armenia (Republic of)
+- Armenia
 218:
 - DE
 - DEU
 - ''
-- Germany (Federal Republic of)
+- Germany
 219:
 - DK
 - DNK
@@ -128,32 +128,32 @@
 - FO
 - FRO
 - ''
-- Faroe Islands - Denmark
+- Faroe Islands
 232:
 - GB
 - GBR
 - ''
-- United Kingdom of Great Britain and Northern Ireland
+- United Kingdom
 233:
 - GB
 - GBR
 - ''
-- United Kingdom of Great Britain and Northern Ireland
+- United Kingdom
 234:
 - GB
 - GBR
 - ''
-- United Kingdom of Great Britain and Northern Ireland
+- United Kingdom
 235:
 - GB
 - GBR
 - ''
-- United Kingdom of Great Britain and Northern Ireland
+- United Kingdom
 236:
 - GI
 - GIB
 - ''
-- Gibraltar - United Kingdom of Great Britain and Northern Ireland
+- Gibraltar
 237:
 - GR
 - GRC
@@ -163,7 +163,7 @@
 - HR
 - HRV
 - ''
-- Croatia (Republic of)
+- Croatia
 239:
 - GR
 - GRC
@@ -183,7 +183,7 @@
 - MA
 - MAR
 - ''
-- Morocco (Kingdom of)
+- Morocco
 243:
 - HU
 - HUN
@@ -193,17 +193,17 @@
 - NL
 - NLD
 - ''
-- Netherlands (Kingdom of the)
+- Netherlands
 245:
 - NL
 - NLD
 - ''
-- Netherlands (Kingdom of the)
+- Netherlands
 246:
 - NL
 - NLD
 - ''
-- Netherlands (Kingdom of the)
+- Netherlands
 247:
 - IT
 - ITA
@@ -228,7 +228,7 @@
 - LI
 - LIE
 - ''
-- Liechtenstein (Principality of)
+- Liechtenstein
 253:
 - LU
 - LUX
@@ -238,12 +238,12 @@
 - MC
 - MCO
 - ''
-- Monaco (Principality of)
+- Monaco
 255:
 - PT
 - PRT
 - PT-30
-- Madeira - Portugal
+- Madeira
 256:
 - MT
 - MLT
@@ -268,7 +268,7 @@
 - PL
 - POL
 - ''
-- Poland (Republic of)
+- Poland
 262:
 - ME
 - MNE
@@ -303,12 +303,12 @@
 - SM
 - SMR
 - ''
-- San Marino (Republic of)
+- San Marino
 269:
 - CH
 - CHE
 - ''
-- Switzerland (Confederation of)
+- Switzerland
 270:
 - CZ
 - CZE
@@ -328,47 +328,47 @@
 - RU
 - RUS
 - ''
-- Russian Federation
+- Russia
 274:
 - MK
 - MKD
 - ''
-- The Former Yugoslav Republic of Macedonia
+- Macedonia
 275:
 - LV
 - LVA
 - ''
-- Latvia (Republic of)
+- Latvia
 276:
 - EE
 - EST
 - ''
-- Estonia (Republic of)
+- Estonia
 277:
 - LT
 - LTU
 - ''
-- Lithuania (Republic of)
+- Lithuania
 278:
 - SI
 - SVN
 - ''
-- Slovenia (Republic of)
+- Slovenia
 279:
 - RS
 - SRB
 - ''
-- Serbia (Republic of)
+- Serbia
 301:
 - AI
 - AIA
 - ''
-- Anguilla - United Kingdom of Great Britain and Northern Ireland
+- Anguilla
 303:
 - US
 - USA
 - US-AK
-- Alaska (State of) - United States of America
+- Alaska
 304:
 - AG
 - ATG
@@ -383,32 +383,32 @@
 - CW
 - CUW
 - ''
-- Antilles - Netherlands (Kingdom of the)
+- Antilles
 307:
 - AW
 - ABW
 - ''
-- Aruba - Netherlands (Kingdom of the)
+- Aruba
 308:
 - BS
 - BHS
 - ''
-- Bahamas (Commonwealth of the)
+- Bahamas
 309:
 - BS
 - BHS
 - ''
-- Bahamas (Commonwealth of the)
+- Bahamas
 310:
 - BM
 - BMU
 - ''
-- Bermuda - United Kingdom of Great Britain and Northern Ireland
+- Bermuda
 311:
 - BS
 - BMU
 - ''
-- Bahamas (Commonwealth of the)
+- Bahamas
 312:
 - BZ
 - BLZ
@@ -428,7 +428,7 @@
 - KY
 - CYM
 - ''
-- Cayman Islands - United Kingdom of Great Britain and Northern Ireland
+- Cayman Islands
 321:
 - CR
 - CRI
@@ -443,7 +443,7 @@
 - DM
 - DMA
 - ''
-- Dominica (Commonwealth of)
+- Dominica
 327:
 - DO
 - DOM
@@ -453,7 +453,7 @@
 - GP
 - GLP
 - ''
-- Guadeloupe (French Department of) - France
+- Guadeloupe
 330:
 - GD
 - GRD
@@ -463,22 +463,22 @@
 - GL
 - GRL
 - ''
-- Greenland - Denmark
+- Greenland
 332:
 - GT
 - GTM
 - ''
-- Guatemala (Republic of)
+- Guatemala
 335:
 - HN
 - HND
 - ''
-- Honduras (Republic of)
+- Honduras
 336:
 - HT
 - HTI
 - ''
-- Haiti (Republic of)
+- Haiti
 338:
 - US
 - USA
@@ -493,7 +493,7 @@
 - KN
 - KNA
 - ''
-- Saint Kitts and Nevis (Federation of)
+- Saint Kitts and Nevis
 343:
 - LC
 - LCA
@@ -508,12 +508,12 @@
 - MQ
 - MTQ
 - ''
-- Martinique (French Department of) - France
+- Martinique
 348:
 - MS
 - MSR
 - ''
-- Montserrat - United Kingdom of Great Britain and Northern Ireland
+- Montserrat
 350:
 - NI
 - NIC
@@ -523,37 +523,37 @@
 - PA
 - PAN
 - ''
-- Panama (Republic of)
+- Panama
 352:
 - PA
 - PAN
 - ''
-- Panama (Republic of)
+- Panama
 353:
 - PA
 - PAN
 - ''
-- Panama (Republic of)
+- Panama
 354:
 - PA
 - PAN
 - ''
-- Panama (Republic of)
+- Panama
 358:
 - PR
 - PRI
 - ''
-- Puerto Rico - United States of America
+- Puerto Rico
 359:
 - SV
 - SLV
 - ''
-- El Salvador (Republic of)
+- El Salvador
 361:
 - PM
 - SPM
 - ''
-- Saint Pierre and Miquelon (Territorial Collectivity of) - France
+- Saint Pierre and Miquelon
 362:
 - TT
 - TTO
@@ -563,7 +563,7 @@
 - TC
 - TCA
 - ''
-- Turks and Caicos Islands - United Kingdom of Great Britain and Northern Ireland
+- Turks and Caicos Islands
 366:
 - US
 - USA
@@ -588,22 +588,22 @@
 - PA
 - PAN
 - ''
-- Panama (Republic of)
+- Panama
 371:
 - PA
 - PAN
 - ''
-- Panama (Republic of)
+- Panama
 372:
 - PA
 - PAN
 - ''
-- Panama (Republic of)
+- Panama
 373:
 - PA
 - PAN
 - ''
-- Panama (Republic of)
+- Panama
 375:
 - VC
 - VCT
@@ -623,12 +623,12 @@
 - VG
 - VGB
 - ''
-- British Virgin Islands - United Kingdom of Great Britain and Northern Ireland
+- British Virgin Islands
 379:
 - VI
 - VIR
 - ''
-- United States Virgin Islands - United States of America
+- United States Virgin Islands
 401:
 - AF
 - AFG
@@ -638,72 +638,72 @@
 - SA
 - SAU
 - ''
-- Saudi Arabia (Kingdom of)
+- Saudi Arabia
 405:
 - BD
 - BGD
 - ''
-- Bangladesh (People's Republic of)
+- Bangladesh
 408:
 - BH
 - BHR
 - ''
-- Bahrain (Kingdom of)
+- Bahrain
 410:
 - BT
 - BTN
 - ''
-- Bhutan (Kingdom of)
+- Bhutan
 412:
 - CN
 - CHN
 - ''
-- China (People's Republic of)
+- China
 413:
 - CN
 - CHN
 - ''
-- China (People's Republic of)
+- China
 414:
 - CN
 - CHN
 - ''
-- China (People's Republic of)
+- China
 416:
 - TW
 - TWN
 - ''
-- Taiwan (Province of China) - China (People's Republic of)
+- Taiwan
 417:
 - LK
 - LKA
 - ''
-- Sri Lanka (Democratic Socialist Republic of)
+- Sri Lanka
 419:
 - IN
 - IND
 - ''
-- India (Republic of)
+- India
 422:
 - IR
 - IRN
 - ''
-- Iran (Islamic Republic of)
+- Iran
 423:
 - AZ
 - AZE
 - ''
-- Azerbaijan (Republic of)
+- Azerbaijan
 425:
 - IQ
 - IRQ
 - ''
-- Iraq (Republic of)
+- Iraq
 428:
 - IL
 - ISR
 - ''
-- Israel (State of)
+- Israel
 431:
 - JP
 - JPN
@@ -723,32 +723,32 @@
 - KZ
 - KAZ
 - ''
-- Kazakhstan (Republic of)
+- Kazakhstan
 437:
 - UZ
 - UZB
 - ''
-- Uzbekistan (Republic of)
+- Uzbekistan
 438:
 - JO
 - JOR
 - ''
-- Jordan (Hashemite Kingdom of)
+- Jordan
 440:
 - KR
 - KOR
 - ''
-- Korea (Republic of)
+- Korea
 441:
 - KR
 - KOR
 - ''
-- Korea (Republic of)
+- Korea
 443:
 - PS
 - PSE
 - ''
-- State of Palestine (In accordance with Resolution 99 Rev. Guadalajara, 2010)
+- State of Palestine
 445:
 - KP
 - PRK
@@ -758,7 +758,7 @@
 - KW
 - KWT
 - ''
-- Kuwait (State of)
+- Kuwait
 450:
 - LB
 - LBN
@@ -773,12 +773,12 @@
 - MO
 - MAC
 - ''
-- Macao (Special Administrative Region of China) - China (People's Republic of)
+- Macao
 455:
 - MV
 - MDV
 - ''
-- Maldives (Republic of)
+- Maldives
 457:
 - MN
 - MNG
@@ -788,17 +788,17 @@
 - NP
 - NPL
 - ''
-- Nepal (Federal Democratic Republic of)
+- Nepal
 461:
 - OM
 - OMN
 - ''
-- Oman (Sultanate of)
+- Oman
 463:
 - PK
 - PAK
 - ''
-- Pakistan (Islamic Republic of)
+- Pakistan
 466:
 - QA
 - QAT
@@ -818,22 +818,22 @@
 - TJ
 - TJK
 - ''
-- Tajikistan (Republic of)
+- Tajikistan
 473:
 - YE
 - YEM
 - ''
-- Yemen (Republic of)
+- Yemen
 475:
 - YE
 - YEM
 - ''
-- Yemen (Republic of)
+- Yemen
 477:
 - HK
 - HKG
 - ''
-- Hong Kong (Special Administrative Region of China) - China (People's Republic of)
+- Hong Kong
 478:
 - BA
 - BIH
@@ -843,7 +843,7 @@
 - FR
 - FRA
 - AQ
-- Adelie Land - France
+- Adelie Land
 503:
 - AU
 - AUS
@@ -853,7 +853,7 @@
 - MM
 - MMR
 - ''
-- Myanmar (Union of)
+- Myanmar
 508:
 - BN
 - BRN
@@ -863,12 +863,12 @@
 - FM
 - FSM
 - ''
-- Micronesia (Federated States of)
+- Micronesia
 511:
 - PW
 - PLW
 - ''
-- Palau (Republic of)
+- Palau
 512:
 - NZ
 - NZL
@@ -878,42 +878,42 @@
 - KH
 - KHM
 - ''
-- Cambodia (Kingdom of)
+- Cambodia
 515:
 - KH
 - KHM
 - ''
-- Cambodia (Kingdom of)
+- Cambodia
 516:
 - CX
 - CXR
 - ''
-- Christmas Island (Indian Ocean) - Australia
+- Christmas Island
 518:
 - CK
 - COK
 - ''
-- Cook Islands - New Zealand
+- Cook Islands
 520:
 - FJ
 - FJI
 - ''
-- Fiji (Republic of)
+- Fiji
 523:
 - CC
 - CCK
 - ''
-- Cocos (Keeling) Islands - Australia
+- Cocos (Keeling) Islands
 525:
 - ID
 - IDN
 - ''
-- Indonesia (Republic of)
+- Indonesia
 529:
 - KI
 - KIR
 - ''
-- Kiribati (Republic of)
+- Kiribati
 531:
 - LA
 - LAO
@@ -928,37 +928,37 @@
 - MP
 - MNP
 - ''
-- Northern Mariana Islands (Commonwealth of the) - United States of America
+- Northern Mariana Islands
 538:
 - MH
 - MHL
 - ''
-- Marshall Islands (Republic of the)
+- Marshall Islands
 540:
 - NC
 - NCL
 - ''
-- New Caledonia - France
+- New Caledonia
 542:
 - NU
 - NIU
 - ''
-- Niue - New Zealand
+- Niue
 544:
 - NR
 - NRU
 - ''
-- Nauru (Republic of)
+- Nauru
 546:
 - PF
 - PYF
 - ''
-- French Polynesia - France
+- French Polynesia
 548:
 - PH
 - PHL
 - ''
-- Philippines (Republic of the)
+- Philippines
 553:
 - PG
 - PNG
@@ -968,7 +968,7 @@
 - PN
 - PCN
 - ''
-- Pitcairn Island - United Kingdom of Great Britain and Northern Ireland
+- Pitcairn Island
 557:
 - SB
 - SLB
@@ -978,32 +978,32 @@
 - AS
 - ASM
 - ''
-- American Samoa - United States of America
+- American Samoa
 561:
 - WS
 - WSM
 - ''
-- Samoa (Independent State of)
+- Samoa
 563:
 - SG
 - SGP
 - ''
-- Singapore (Republic of)
+- Singapore
 564:
 - SG
 - SGP
 - ''
-- Singapore (Republic of)
+- Singapore
 565:
 - SG
 - SGP
 - ''
-- Singapore (Republic of)
+- Singapore
 566:
 - SG
 - SGP
 - ''
-- Singapore (Republic of)
+- Singapore
 567:
 - TH
 - THA
@@ -1013,7 +1013,7 @@
 - TO
 - TON
 - ''
-- Tonga (Kingdom of)
+- Tonga
 572:
 - TV
 - TUV
@@ -1023,112 +1023,112 @@
 - VN
 - VNM
 - ''
-- Viet Nam (Socialist Republic of)
+- Viet Nam
 576:
 - VU
 - VUT
 - ''
-- Vanuatu (Republic of)
+- Vanuatu
 577:
 - VU
 - VUT
 - ''
-- Vanuatu (Republic of)
+- Vanuatu
 578:
 - WF
 - WLF
 - ''
-- Wallis and Futuna Islands - France
+- Wallis and Futuna Islands
 601:
 - ZA
 - ZAF
 - ''
-- South Africa (Republic of)
+- South Africa
 603:
 - AO
 - AGO
 - ''
-- Angola (Republic of)
+- Angola
 605:
 - DZ
 - DZA
 - ''
-- Algeria (People's Democratic Republic of)
+- Algeria
 607:
 - FR
 - FRA
 - TF
-- Saint Paul and Amsterdam Islands - France
+- Saint Paul and Amsterdam Islands
 608:
 - GB
 - GBR
 - AC
-- Ascension Island - United Kingdom of Great Britain and Northern Ireland
+- Ascension Island
 609:
 - BI
 - BDI
 - ''
-- Burundi (Republic of)
+- Burundi
 610:
 - BJ
 - BEN
 - ''
-- Benin (Republic of)
+- Benin
 611:
 - BW
 - BWA
 - ''
-- Botswana (Republic of)
+- Botswana
 621:
 - DJ
 - DJI
 - ''
-- Djibouti (Republic of)
+- Djibouti
 613:
 - CM
 - CMR
 - ''
-- Cameroon (Republic of)
+- Cameroon
 615:
 - CG
 - COG
 - ''
-- Congo (Republic of the)
+- Congo
 616:
 - KM
 - COM
 - ''
-- Comoros (Union of the)
+- Comoros
 617:
 - CV
 - CPV
 - ''
-- Cabo Verde (Republic of)
+- Cabo Verde
 618:
 - FR
 - FRA
 - TF
-- Crozet Archipelago - France
+- Crozet Archipelago
 619:
 - CI
 - CIV
 - ''
-- Ivory Coast (Republic of)
+- Ivory Coast
 620:
 - KM
 - COM
 - ''
-- Comoros (Union of the)
+- Comoros
 622:
 - EG
 - EGY
 - ''
-- Egypt (Arab Republic of)
+- Egypt
 624:
 - ET
 - ETH
 - ''
-- Ethiopia (Federal Democratic Republic of)
+- Ethiopia
 625:
 - ER
 - ERI
@@ -1148,22 +1148,22 @@
 - GM
 - GMB
 - ''
-- Gambia (Republic of the)
+- Gambia
 630:
 - GW
 - GNB
 - ''
-- Guinea-Bissau (Republic of)
+- Guinea-Bissau
 631:
 - GQ
 - GNQ
 - ''
-- Equatorial Guinea (Republic of)
+- Equatorial Guinea
 632:
 - GN
 - GIN
 - ''
-- Guinea (Republic of)
+- Guinea
 633:
 - BF
 - BFA
@@ -1173,27 +1173,27 @@
 - KE
 - KEN
 - ''
-- Kenya (Republic of)
+- Kenya
 635:
 - FR
 - FRA
 - TF
-- Kerguelen Islands - France
+- Kerguelen Islands
 636:
 - LR
 - LBR
 - ''
-- Liberia (Republic of)
+- Liberia
 637:
 - LR
 - LBR
 - ''
-- Liberia (Republic of)
+- Liberia
 638:
 - SS
 - SSD
 - ''
-- South Sudan (Republic of)
+- South Sudan
 642:
 - LY
 - LBY
@@ -1203,77 +1203,77 @@
 - LS
 - LSO
 - ''
-- Lesotho (Kingdom of)
+- Lesotho
 645:
 - MU
 - MUS
 - ''
-- Mauritius (Republic of)
+- Mauritius
 647:
 - MG
 - MDG
 - ''
-- Madagascar (Republic of)
+- Madagascar
 649:
 - ML
 - MLI
 - ''
-- Mali (Republic of)
+- Mali
 650:
 - MZ
 - MOZ
 - ''
-- Mozambique (Republic of)
+- Mozambique
 654:
 - MR
 - MRT
 - ''
-- Mauritania (Islamic Republic of)
+- Mauritania
 655:
 - MW
 - MWI
 - ''
-- Malawi (Republic of)
+- Malawi
 656:
 - NG
 - NGA
 - ''
-- Nigeria (Federal Republic of)
+- Nigeria
 659:
 - NA
 - NAM
 - ''
-- Namibia (Republic of)
+- Namibia
 660:
 - RE
 - REU
 - ''
-- Reunion (French Department of)
+- Reunion
 661:
 - RW
 - RWA
 - ''
-- Rwanda (Republic of)
+- Rwanda
 662:
 - SD
 - SDN
 - ''
-- Sudan (Republic of the)
+- Sudan
 663:
 - SN
 - SEN
 - ''
-- Senegal (Republic of)
+- Senegal
 664:
 - SC
 - SYC
 - ''
-- Seychelles (Republic of)
+- Seychelles
 665:
 - SH
 - SHN
 - ''
-- Saint Helena, Ascension and Tristan da Cunha
+- Saint Helena
 666:
 - SO
 - SOM
@@ -1283,22 +1283,22 @@
 - SL
 - SLE
 - ''
-- Sierra Leone (Republic of)
+- Sierra Leone
 668:
 - ST
 - STP
 - ''
-- Sao Tome and Principe (Democratic Republic of)
+- Sao Tome and Principe
 669:
 - SZ
 - SWZ
 - ''
-- Swaziland (Kingdom of)
+- Swaziland
 670:
 - TD
 - TCD
 - ''
-- Chad (Republic of)
+- Chad
 671:
 - TG
 - TGO
@@ -1313,12 +1313,12 @@
 - TZ
 - TZA
 - ''
-- Tanzania (United Republic of)
+- Tanzania
 675:
 - UG
 - UGA
 - ''
-- Uganda (Republic of)
+- Uganda
 676:
 - CD
 - COD
@@ -1328,17 +1328,17 @@
 - TZ
 - TZA
 - ''
-- Tanzania (United Republic of)
+- Tanzania
 678:
 - ZM
 - ZMB
 - ''
-- Zambia (Republic of)
+- Zambia
 679:
 - ZW
 - ZWE
 - ''
-- Zimbabwe (Republic of)
+- Zimbabwe
 701:
 - AR
 - ARG
@@ -1348,12 +1348,12 @@
 - BR
 - BRA
 - ''
-- Brazil (Federative Republic of)
+- Brazil
 720:
 - BO
 - BOL
 - ''
-- Bolivia (Plurinational State of)
+- Bolivia
 725:
 - CL
 - CHL
@@ -1363,7 +1363,7 @@
 - CO
 - COL
 - ''
-- Colombia (Republic of)
+- Colombia
 735:
 - EC
 - ECU
@@ -1373,12 +1373,12 @@
 - FK
 - FLK
 - ''
-- Falkland Islands (Malvinas) - United Kingdom of Great Britain and Northern Ireland
+- Falkland Islands
 745:
 - GF
 - GUF
 - ''
-- Guiana - France
+- Guiana
 750:
 - GY
 - GUY
@@ -1388,7 +1388,7 @@
 - PY
 - PRY
 - ''
-- Paraguay (Republic of)
+- Paraguay
 760:
 - PE
 - PER
@@ -1398,14 +1398,14 @@
 - SR
 - SUR
 - ''
-- Suriname (Republic of)
+- Suriname
 770:
 - UY
 - URY
 - ''
-- Uruguay (Eastern Republic of)
+- Uruguay
 775:
 - VE
 - VEN
 - ''
-- Venezuela (Bolivarian Republic of)
+- Venezuela

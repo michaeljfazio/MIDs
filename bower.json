@@ -2,8 +2,8 @@
   "name": "MIDs",
   "version": "1.0.0",
   "main": [
-    "mids.json", 
-    "mids.yaml", 
+    "mids.json",
+    "mids.yaml",
     "mids.csv"
   ],
   "homepage": "https://github.com/S73417H/MIDs",
@@ -25,5 +25,8 @@
     "**/.*",
     "README.md",
     "Rakefile"
-  ]
+  ],
+  "dependencies": {
+    "mids": "~1.0.0"
+  }
 }
