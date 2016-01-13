@@ -64,7 +64,7 @@ Table of Mapped MID Codes
 |  Spain |   ES |   ESP |     225    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/es.png) |
 |  France |   FR |   FRA |     226    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/fr.png) |
 |  France |   FR |   FRA |     227    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/fr.png) |
-|  Malta |   MT |   MLT |     228    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mt.png) |
+|  Malta |   MT |   MLT |     229    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mt.png) |
 |  Finland |   FI |   FIN |     230    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/fi.png) |
 |  Faroe Islands |   FO |   FRO |     231    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/fo.png) |
 |  United Kingdom |   GB |   GBR |     232    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gb.png) |
