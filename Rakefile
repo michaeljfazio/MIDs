@@ -119,7 +119,9 @@ data = {
 	352 =>	['PA', 'PAN', '',		'Panama'],
 	353 =>	['PA', 'PAN', '',		'Panama'],
 	354 =>	['PA', 'PAN', '',		'Panama'],
-	# 355,356, 357	-
+	355 =>	['PA', 'PAN', '',		'Panama'],
+	356 =>	['PA', 'PAN', '',		'Panama'],
+	357 =>	['PA', 'PAN', '',		'Panama'],
 	358 =>	['PR', 'PRI', '',		'Puerto Rico'],
 	359 =>	['SV', 'SLV', '',		'El Salvador'],
 	361 =>	['PM', 'SPM', '',		'Saint Pierre and Miquelon'],
