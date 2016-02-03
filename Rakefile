@@ -10,11 +10,7 @@ require 'csv'
 
 data = {
   # Columns are as follows:
-  # MID
-  #       3166-1 alpha-2,
-  #             3166-1 alpha-3,
-  #                    3166-2,
-  #                             Country Name
+  # MID => 3166-1 alpha-2, 3166-1 alpha-3, 3166-2, Country Name
   201 => ['AL', 'ALB', '',      'Albania'],
   202 => ['AD', 'AND', '',      'Andorra'],
   203 => ['AT', 'AUT', '',      'Austria'],
@@ -140,6 +136,7 @@ data = {
   371 => ['PA', 'PAN', '',      'Panama'],
   372 => ['PA', 'PAN', '',      'Panama'],
   373 => ['PA', 'PAN', '',      'Panama'],
+  374 => ['PA', 'PAN', '',      'Panama'],
   375 => ['VC', 'VCT', '',      'Saint Vincent and the Grenadines'],
   376 => ['VC', 'VCT', '',      'Saint Vincent and the Grenadines'],
   377 => ['VC', 'VCT', '',      'Saint Vincent and the Grenadines'],
