@@ -544,6 +544,21 @@
 - PAN
 - ''
 - Panama
+355:
+- PA
+- PAN
+- ''
+- Panama
+356:
+- PA
+- PAN
+- ''
+- Panama
+357:
+- PA
+- PAN
+- ''
+- Panama
 358:
 - PR
 - PRI
@@ -605,6 +620,11 @@
 - ''
 - Panama
 373:
+- PA
+- PAN
+- ''
+- Panama
+374:
 - PA
 - PAN
 - ''
@@ -1084,11 +1104,11 @@
 - BWA
 - ''
 - Botswana
-621:
-- DJ
-- DJI
+612:
+- CF
+- CAF
 - ''
-- Djibouti
+- Central African Republic
 613:
 - CM
 - CMR
@@ -1124,6 +1144,11 @@
 - COM
 - ''
 - Comoros
+621:
+- DJ
+- DJI
+- ''
+- Djibouti
 622:
 - EG
 - EGY
@@ -1240,6 +1265,11 @@
 - ''
 - Malawi
 656:
+- NE
+- NER
+- ''
+- Niger
+657:
 - NG
 - NGA
 - ''

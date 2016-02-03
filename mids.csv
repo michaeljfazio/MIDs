@@ -107,6 +107,9 @@
 352,PA,PAN,"",Panama
 353,PA,PAN,"",Panama
 354,PA,PAN,"",Panama
+355,PA,PAN,"",Panama
+356,PA,PAN,"",Panama
+357,PA,PAN,"",Panama
 358,PR,PRI,"",Puerto Rico
 359,SV,SLV,"",El Salvador
 361,PM,SPM,"",Saint Pierre and Miquelon
@@ -120,6 +123,7 @@
 371,PA,PAN,"",Panama
 372,PA,PAN,"",Panama
 373,PA,PAN,"",Panama
+374,PA,PAN,"",Panama
 375,VC,VCT,"",Saint Vincent and the Grenadines
 376,VC,VCT,"",Saint Vincent and the Grenadines
 377,VC,VCT,"",Saint Vincent and the Grenadines
@@ -215,7 +219,7 @@
 609,BI,BDI,"",Burundi
 610,BJ,BEN,"",Benin
 611,BW,BWA,"",Botswana
-621,DJ,DJI,"",Djibouti
+612,CF,CAF,"",Central African Republic
 613,CM,CMR,"",Cameroon
 615,CG,COG,"",Congo
 616,KM,COM,"",Comoros
@@ -223,6 +227,7 @@
 618,FR,FRA,TF,Crozet Archipelago
 619,CI,CIV,"",Ivory Coast
 620,KM,COM,"",Comoros
+621,DJ,DJI,"",Djibouti
 622,EG,EGY,"",Egypt
 624,ET,ETH,"",Ethiopia
 625,ER,ERI,"",Eritrea
@@ -246,7 +251,8 @@
 650,MZ,MOZ,"",Mozambique
 654,MR,MRT,"",Mauritania
 655,MW,MWI,"",Malawi
-656,NG,NGA,"",Nigeria
+656,NE,NER,"",Niger
+657,NG,NGA,"",Nigeria
 659,NA,NAM,"",Namibia
 660,RE,REU,"",Reunion
 661,RW,RWA,"",Rwanda
