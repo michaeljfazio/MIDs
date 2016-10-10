@@ -1,6 +1,6 @@
 {
   "name": "MIDs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": [
     "mids.json",
     "mids.yaml",
