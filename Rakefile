@@ -55,6 +55,7 @@ data = {
   246 => ['NL', 'NLD', '',      'Netherlands'],
   247 => ['IT', 'ITA', '',      'Italy'],
   248 => ['MT', 'MLT', '',      'Malta'],
+  249 => ['MT', 'MLT', '',      'Malta'],
   250 => ['IE', 'IRL', '',      'Ireland'],
   251 => ['IS', 'ISL', '',      'Iceland'],
   252 => ['LI', 'LIE', '',      'Liechtenstein'],
