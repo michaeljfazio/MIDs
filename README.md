@@ -84,6 +84,7 @@ Table of Mapped MID Codes
 |  Netherlands |   NL |   NLD |     246    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/nl.png) |
 |  Italy |   IT |   ITA |     247    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/it.png) |
 |  Malta |   MT |   MLT |     248    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mt.png) |
+|  Malta |   MT |   MLT |     249    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mt.png) |
 |  Ireland |   IE |   IRL |     250    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ie.png) |
 |  Iceland |   IS |   ISL |     251    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/is.png) |
 |  Liechtenstein |   LI |   LIE |     252    | ![](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/li.png) |
