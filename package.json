@@ -1,0 +1,22 @@
+{
+  "name": "@michaeljfazio/mids",
+  "version": "2.0.0",
+  "description": "Maritime Identification Digits Mapping to Country Codes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeljfazio/MIDs.git"
+  },
+  "keywords": [
+    "MID",
+    "MMSI",
+    "AIS",
+    "DSC",
+    "ATIS"
+  ],
+  "author": "Michael Fazio <michaelfazio@me.com> (https://www.linkedin.com/in/mjfazio/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/michaeljfazio/MIDs/issues"
+  },
+  "homepage": "https://github.com/michaeljfazio/MIDs#readme"
+}
