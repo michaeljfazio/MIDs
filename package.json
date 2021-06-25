@@ -1,6 +1,6 @@
 {
   "name": "@michaeljfazio/mids",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Maritime Identification Digits Mapping to Country Codes",
   "repository": {
     "type": "git",
