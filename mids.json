@@ -575,7 +575,7 @@
         "",
         "Guatemala"
     ],
-    "335": [
+    "334": [
         "HN",
         "HND",
         "",
@@ -1013,6 +1013,12 @@
         "",
         "United Arab Emirates"
     ],
+    "471": [
+        "AE",
+        "ARE",
+        "",
+        "United Arab Emirates"
+    ],
     "472": [
         "TJ",
         "TJK",
@@ -1186,6 +1192,12 @@
         "PHL",
         "",
         "Philippines"
+    ],
+    "550": [
+        "TL",
+        "TLS",
+        "",
+        "Timor-Leste (Democratic Republic of)"
     ],
     "553": [
         "PG",
